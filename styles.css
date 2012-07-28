@@ -113,3 +113,14 @@ span.caption {
   font-size: 60px;
   margin: 30px;
 }
+
+body .slide .align-left {
+  text-align: left;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+body .slide .align-left h2 {
+  text-align: left;  
+  padding-bottom: 20px;
+}

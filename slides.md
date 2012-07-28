@@ -1,3 +1,6 @@
+!SLIDE[bg=scene/headon.jpg]
+&nbps;
+
 !SLIDE center
 # Hello!
 ![](jacob/pier.jpg)
@@ -6,8 +9,31 @@
 # Jacob Burkhart
 
 !SLIDE
-# Engine Yard
+![](logos/engine-yard.png)
 ![](jacob/coding.gif)
+
+!SLIDE center
+# What is presence?
+
+!SLIDE center
+# Awareness
+
+!SLIDE center
+# Mindfulness
+
+!SLIDE center
+# Focus
+
+!SLIDE center align-left
+## Such is the life we can know.
+## Living in the past and in the future - in recollection and in anticipation - creates a less clear picture of the present.
+## By being in the here and now we understand that the past and future only exist in the present.
+## That's all there is, but speaking for myself, I couldn't ask for more.
+
+.notes quote by Gerry Lopez
+
+!SLIDE
+# Gerry Lopez
 
 !SLIDE
     @@@ruby
@@ -39,43 +65,33 @@
       end
     end
 
-.notes 
-Did you catch that?
-How do you understand what's going on there?
-Are you stepping through it line by line.  Metal Ruby Evaluator maybe?
+.notes Did you catch that? How do you understand what's going on there? Are you stepping through it line by line.  Mental Ruby Evaluator maybe?
 
-!SLIDE
-# Let's visualize
+!SLIDE  center
+# Surf Culture
 
-!SLIDE[bg=scene/headon.jpg]
+.notes What do you think of when I say surfing?
+
+!SLIDE[bg=surfing/waikiki.jpg]
 &nbps;
 
-!SLIDE bullets incremental
-# Were you present?
+!SLIDE[bg=surfing/mavs.jpg]
+&nbps;
 
-.notes
-call for audience participation
+!SLIDE[bg=surfing/beachboys.jpg]
+&nbps;
 
-!SLIDE
-# So what is surfing?
+!SLIDE[bg=surfing/jordysmithaerial.jpg]
+&nbps;
 
-!SLIDE
-# bikini babes and golden beaches?
+!SLIDE[bg=surfing/slaterob.jpg]
+&nbps;
 
-!SLIDE
-# monster waves
+!SLIDE[bg=surfing/fasttimes.jpg]
+&nbps;
 
-!SLIDE
-# radical aerials
-
-!SLIDE
-# beach boys, jack johnson, dick dale
-
-!SLIDE
-# The beach bum
-
-!SLIDE
-# The "soul surfer"
+!SLIDE[bg=surfing/treepose.png]
+&nbps;
 
 !SLIDE
 # Well I started here
@@ -83,22 +99,17 @@ call for audience participation
 !SLIDE
 # The Kook
 
-.notes
-Everyone starts as a beginner. And even the most experience surfers have kook moments
+.notes Everyone starts as a beginner. And even the most experience surfers have kook moments
 
 !SLIDE
 # Gerry Lopez
 
-.notes
-You seem him talking in surf movies, and he's just so relaxed and Zen.
-I envy his vibe.
+.notes You seem him talking in surf movies, and he's just so relaxed and Zen. I envy his vibe.
 
 !SLIDE
 # Surf is where you find it
 
-.notes
-So he wrote this book, and I got about halfway through it.
-And I picked it up again a week ago and suddenly I got to all the good stories. The ones that really talk about this hippy "Being Present" stuff
+.notes So he wrote this book, and I got about halfway through it. And I picked it up again a week ago and suddenly I got to all the good stories. The ones that really talk about this hippy "Being Present" stuff
 
 !SLIDE
 # Kook moment in big waves story
@@ -110,11 +121,7 @@ quote?
 !SLIDE
 # We have kook moments in programming too
 
-TODO: think of anecdote kook moment in programming?
-
-.notes
-this is why we pair
-but also, this is healthy. This is good for us.
+.notes this is why we pair. but also, this is healthy. This is good for us. TODO: think of anecdote kook moment in programming?
 
 !SLIDE
 # Getting to the next level
@@ -122,9 +129,7 @@ but also, this is healthy. This is good for us.
 !SLIDE
 # Dedication
 
-.notes
-I've taken many people out for their first surf. Or first few surfs.
-Only a few have truly taken to it.  Made it a priority.
+.notes I've taken many people out for their first surf. Or first few surfs. Only a few have truly taken to it.  Made it a priority.
 
 !SLIDE
 # Priorities
@@ -137,70 +142,62 @@ Only a few have truly taken to it.  Made it a priority.
 * Friends
 * Work
 
+!SLIDE
 # Balance
 
-.notes
-this is an ordered list, but there are no absolutes.  Friends don't ALWAYS take priority over work. There is balance
+.notes this is an ordered list, but there are no absolutes.  Friends don't ALWAYS take priority over work. There is balance
 
+!SLIDE
 # The Buddha
 
-.notes
-The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
+.notes The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
 
+!SLIDE
 # Number One Priority. Faith
 
-.notes
-It means many thinks to different people.
-To me it's surfing.  It's that rare sense of connection with the universe.
+.notes It means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
 
+!SLIDE
 # A Practice of Faith
 
+!SLIDE
 # Shiva
 
-.notes
-Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by
-Took my on my first Surf.
+.notes Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by Took my on my first Surf. He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.
 
-He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.
-
+!SLIDE
 # Ed
 
-.notes
-I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards
+.notes I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
 
-One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
-
+!SLIDE
 # J-Bird
 
-.notes
-My lifelong surf companion. My Wife.
-An Obsession with perfection.  And with surfing.
-A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave.
-Her stoke never fades.
+.notes My lifelong surf companion. My Wife. An Obsession with perfection.  And with surfing.
+A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave. Her stoke never fades.
 
+!SLIDE
 # My surf lifestyle
 
-
+!SLIDE
 # Wake up at 6
 
-
+!SLIDE
 # In the water by 7
 
-
+!SLIDE
 # Out by 9
 
-
+!SLIDE
 # 10 am standup
 
-
+!SLIDE
 # The Massive Lunch
 
-
+!SLIDE
 # The Joy of Living
 
-.notes
-pair says: OMG this bug or this problem :-(
-I say: OMG this bug! :-) It's so interesting. So intriguing. why why why. how how how.
+.notes pair says: OMG this bug or this problem :-( I say: OMG this bug! :-) It's so interesting. So intriguing. why why why. how how how.
 
 !SLIDE
 # Surf Safari on the Weekends
@@ -221,10 +218,11 @@ Santa Cruz
 !SLIDE
 # ahh Santa Cruz
 
+!SLIDE
 # The long peeling waves
 
 !SLIDE
-# Sweet Sweet longboarding rides
+# Sweet Sweet longboard rides
 
 !SLIDE
 # Otters!
@@ -235,10 +233,7 @@ Santa Cruz
 !SLIDE
 # Don't be Aggro!
 
-.notes
-PSA. Don't be the 1% that ruins surfing for the rest of us.
-They are like the trolls on the internet, except instead of hiding behind anonymity they hide behind a facade of "being local", and "a better surfer than you".
-But don't be an idiot either
+.notes PSA. Don't be the 1% that ruins surfing for the rest of us. They are like the trolls on the internet, except instead of hiding behind anonymity they hide behind a facade of "being local", and "a better surfer than you". But don't be an idiot either
 
 !SLIDE
 # Surf etiquette
@@ -256,45 +251,71 @@ But don't be an idiot either
 #Accidents happen
 
 !SLIDE
-#The Aloha spirit
-
-.notes
-Cheer for strangers. Share the waves.
+#Ding Repair
+(picture of Rich)
 
 !SLIDE
-#???
+#The Aloha spirit
 
+.notes Cheer for strangers. Share the waves.
+
+!SLIDE[bg=beginners/stoked.jpg]
+# Learn to Surf
+
+Goofy or Regular
+
+paddling
+
+the pop up
+
+cover your head
+
+hold your breath
+
+!SLIDE
 #The hold down
 
+!SLIDE
+#Gerry's story of 3 wave hold down
+
+!SLIDE
 #Big Waves
 
+!SLIDE
+#Mavericks
+
+!SLIDE
+#Don't panic after you've panic'd
+
+!SLIDE
 #Gerry's story of pipeline focus
 
+!SLIDE
 #Perrin's Story
 patience
 "No other thoughts in my head"
 
+!SLIDE
 #Chris's Story (the red)
 keeps me sane (or less insane)
 
+!SLIDE
 #Cynthia's Story
-Jone-sing
-My Drug
+Surfing is My Drug
 
+!SLIDE
 #Darren's Story
 Interviewed at facebook. But you know, I have a pretty sweet life...
 
-#Luke's Story
-I'm not fat anymore!
+!SLIDE
+#Priorities!
 
-!SLIDE bullets incremental
-# Being Present
-* focus
-* awareness
-* determination
+!SLIDE
+#Be ready when the surf is up
 
-# Gerry Lopez
+!SLIDE
+#Be patient when it's not
 
+!SLIDE
+#Find your style
 
-!SLIDE[bg=beginners/stoked.jpg]
-# Learn to Surf
