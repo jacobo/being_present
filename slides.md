@@ -30,7 +30,7 @@
 ## By being in the here and now we understand that the past and future only exist in the present.
 ## That's all there is, but speaking for myself, I couldn't ask for more.
 
-.notes quote by Gerry Lopez
+.notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
 
 !SLIDE
 # Gerry Lopez
@@ -68,70 +68,131 @@
 .notes Did you catch that? How do you understand what's going on there? Are you stepping through it line by line.  Mental Ruby Evaluator maybe?
 
 !SLIDE  center
-# Surf Culture
+# Surfing
 
 .notes What do you think of when I say surfing?
 
-!SLIDE[bg=surfing/waikiki.jpg]
+!SLIDE[bg=surfing/huntingtonbeach.png]
 &nbps;
 
-!SLIDE[bg=surfing/mavs.jpg]
+!SLIDE[bg=surfing/huntingtonbeach2.png]
 &nbps;
 
-!SLIDE[bg=surfing/beachboys.jpg]
-&nbps;
-
-!SLIDE[bg=surfing/jordysmithaerial.jpg]
+!SLIDE[bg=surfing/slaterusopen.jpg]
 &nbps;
 
 !SLIDE[bg=surfing/slaterob.jpg]
 &nbps;
 
-!SLIDE[bg=surfing/fasttimes.jpg]
+!SLIDE[bg=surfing/alanascloset.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/alanablanchard.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/teahupoo.jpg]
+&nbps;
+
+.notes http://en.wikipedia.org/wiki/Teahupo'o
+
+!SLIDE[bg=surfing/mavs.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/jeffclark.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/danereynolds.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/rellsunn.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/kassiameador.jpg]
+&nbps;
+
+.notes Growing up at Malibu and surfing there, I was able to see some of the best surfers in the world. I am a very visual person. That’s why I am into photography and I really enjoy films. So aesthetically, I will just like the way someone surfs, especially if they are smooth. That’s why I like how Joel (Tudor) surfs or someone like Dane Peterson. A smooth style is something that I appreciate and I want to emulate with my surfing. I really have a difficult time watching people surf when they are just “all over the place,” I just can’t visually accept it. (laughs)
+
+!SLIDE[bg=surfing/hippies.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/hippies2.jpg]
+&nbps;
+
+!SLIDE[bg=surfing/zenhippy.jpg]
 &nbps;
 
 !SLIDE[bg=surfing/treepose.png]
 &nbps;
 
-!SLIDE
-# Well I started here
+!SLIDE[bg=surfing/hampton-nh.jpg]
+&nbps;
 
 !SLIDE
-# The Kook
+# Kook
+<table>
+  <tr>
+    <td>
+      <img src="surfing/gettingup.jpg"/>
+    </td>
+    <td rowspan="100%">
+      <img src="surfing/jacobkook.png"/>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="surfing/firstwaves.jpg"/>
+    </td>
+  </tr>
+</table>
 
-.notes Everyone starts as a beginner. And even the most experience surfers have kook moments
+.notes Everyone starts as a beginner. But even the most experience surfers have kook moments
 
-!SLIDE
+!SLIDE[bg=surfing/jettykooks.jpg]
+# Kooking it up
+
+.notes http://surfergrrrl.blogspot.com/2012/07/social-sunday-sloppy-surf-hmb-jetty.html
+
+!SLIDE[bg=gerry/yoga.jpg]
 # Gerry Lopez
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+(not a Kook)
 
 .notes You seem him talking in surf movies, and he's just so relaxed and Zen. I envy his vibe.
 
 !SLIDE
 # Surf is where you find it
+![](gerry/book.jpg)
 
 .notes So he wrote this book, and I got about halfway through it. And I picked it up again a week ago and suddenly I got to all the good stories. The ones that really talk about this hippy "Being Present" stuff
 
-!SLIDE
-# Kook moment in big waves story
-quote?
+!SLIDE[bg=gerry/g-land.jpg] bullets incremental
+# G-Land
+* Grajagan Bay, Indonesia
+* The ocean always wins
 
-!SLIDE
-# The ocean always wins
+.notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
 
 !SLIDE
 # We have kook moments in programming too
 
-.notes this is why we pair. but also, this is healthy. This is good for us. TODO: think of anecdote kook moment in programming?
+    @@@ruby bigcode
+      if value == true
+        return true
+      else
+        return false
+      end
 
-!SLIDE
+.notes Usually mine involve instance_eval and going down other overly complex rabbit holes when a simple Method or Class would do just fine. This is why we pair. But also, this is healthy. This is good for us.  The ocean always wins and humility is healthy.
+
+!SLIDE[bg=ed/stylecrouch.jpg]
 # Getting to the next level
 
-!SLIDE
+!SLIDE[bg=scene/winter.jpg]
 # Dedication
 
 .notes I've taken many people out for their first surf. Or first few surfs. Only a few have truly taken to it.  Made it a priority.
 
-!SLIDE
+!SLIDE[bg=scene/jenness.jpg]
 # Priorities
 
 !SLIDE bullets incremental
@@ -142,39 +203,87 @@ quote?
 * Friends
 * Work
 
+.notes I don't have the great big grey Gandalf beard up here to really sell this to you like it's a lifetime of wisdom. But I buy into it.
+
+!SLIDE
+# Faith = Surf
+(of course)
+[picture of me surfing]
+
+.notes Faith means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
+
 !SLIDE
 # Balance
+[picture of beach yoga from after our wedding]
 
 .notes this is an ordered list, but there are no absolutes.  Friends don't ALWAYS take priority over work. There is balance
 
 !SLIDE
 # The Buddha
+[picture of the Buddha]
 
 .notes The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
 
 !SLIDE
-# Number One Priority. Faith
+# Health
+(Surfing is good for you)
 
-.notes It means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
+[picture of J-Bird showing muscles?]
+
+.notes good for your wrists
 
 !SLIDE
-# A Practice of Faith
+# Family
+(surf with your Family)
+
+[picture of my Apple family]
 
 !SLIDE
 # Shiva
 
+[picture of shiva stoked and padding]
+
 .notes Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by Took my on my first Surf. He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.
+
+!SLIDE
+# J-Bird
+
+[picture of J-Bird on a sweet wave]
+
+.notes My lifelong surf companion. My Wife. An Obsession with perfection.  And with surfing.
+A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave. Her stoke never fades.
+
+!SLIDE
+# Friends
+(surf with your Friends)
+
+[picture of luke and other on beach]
+
+!SLIDE
+#Cynthia's Story
+Surfing is My Drug
+
+[picture of cynthia]
+
+!SLIDE
+#Chris's Story (the red)
+keeps me sane (or less insane)
+
+[picture of chris]
+
+!SLIDE
+#Post-Mango Surf
+
+[picture of mangos]
+
+!SLIDE
+# Work
+(surf before you go to work)
 
 !SLIDE
 # Ed
 
 .notes I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
-
-!SLIDE
-# J-Bird
-
-.notes My lifelong surf companion. My Wife. An Obsession with perfection.  And with surfing.
-A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave. Her stoke never fades.
 
 !SLIDE
 # My surf lifestyle
@@ -286,6 +395,7 @@ hold your breath
 
 !SLIDE
 #Don't panic after you've panic'd
+(picture of grant twiggy baker)
 
 !SLIDE
 #Gerry's story of pipeline focus
@@ -294,14 +404,6 @@ hold your breath
 #Perrin's Story
 patience
 "No other thoughts in my head"
-
-!SLIDE
-#Chris's Story (the red)
-keeps me sane (or less insane)
-
-!SLIDE
-#Cynthia's Story
-Surfing is My Drug
 
 !SLIDE
 #Darren's Story
@@ -318,4 +420,38 @@ Interviewed at facebook. But you know, I have a pretty sweet life...
 
 !SLIDE
 #Find your style
+
+!SLIDE
+#Presence
+
+!SLIDE
+Other sources of Presence
+  - rock climbing
+  - sky diving
+  - vinyasa flow
+  - meditation
+  - music
+  - "this guy holding his hands up to worship jesus"
+
+!SLIDE
+#Focus
+
+!SLIDE
+#Awareness
+
+.notes listen to your body, pay attention to all your sense
+
+!SLIDE
+#Determination
+
+!SLIDE
+#Aspiration
+
+.notes always try to be a better surfer, a better programmer, a better public speaker
+
+!SLIDE
+#Patience
+
+!SLIDE
+(quote from Gerry)
 
