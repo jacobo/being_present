@@ -24,17 +24,6 @@
 !SLIDE center
 # Focus
 
-!SLIDE center align-left
-## Such is the life we can know.
-## Living in the past and in the future - in recollection and in anticipation - creates a less clear picture of the present.
-## By being in the here and now we understand that the past and future only exist in the present.
-## That's all there is, but speaking for myself, I couldn't ask for more.
-
-.notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
-
-!SLIDE
-# Gerry Lopez
-
 !SLIDE
     @@@ruby
     def traversal_from_hash(from_hash)
@@ -66,6 +55,23 @@
     end
 
 .notes Did you catch that? How do you understand what's going on there? Are you stepping through it line by line.  Mental Ruby Evaluator maybe?
+
+!SLIDE[bg=gerry/pipeline.jpg]
+# Gerry Lopez
+
+!SLIDE
+# Surf is where you find it
+![](gerry/book.jpg)
+
+.notes So he wrote this book, and I got about halfway through it. And I picked it up again a week ago and suddenly I got to all the good stories. The ones that really talk about this hippy "Being Present" stuff
+
+!SLIDE center align-left
+## Such is the life we can know.
+## Living in the past and in the future - in recollection and in anticipation - creates a less clear picture of the present.
+## By being in the here and now we understand that the past and future only exist in the present.
+## That's all there is, but speaking for myself, I couldn't ask for more.
+
+.notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
 
 !SLIDE  center
 # Surfing
@@ -159,18 +165,16 @@
 
 .notes You seem him talking in surf movies, and he's just so relaxed and Zen. I envy his vibe.
 
-!SLIDE
-# Surf is where you find it
-![](gerry/book.jpg)
-
-.notes So he wrote this book, and I got about halfway through it. And I picked it up again a week ago and suddenly I got to all the good stories. The ones that really talk about this hippy "Being Present" stuff
-
 !SLIDE[bg=gerry/g-land.jpg] bullets incremental
 # G-Land
 * Grajagan Bay, Indonesia
 * The ocean always wins
 
 .notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
+
+It made me think that maybe sometimes we have to back to the beginning to find the answers to the questions we have at the end.  The answers may be so simple that it is easily overlooked. If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed. It's there, so keep padding where it leads.
+
+.notes page 128
 
 !SLIDE
 # We have kook moments in programming too
@@ -387,6 +391,10 @@ hold your breath
 !SLIDE
 #Gerry's story of 3 wave hold down
 
+Momments of surf realization are here to remind us of our true potential. If that is why we surf, that's goo because surfing reconnects us to who we really are. This is all more reason to keep surfing. Life is good. Surfing reminds us of how good life is.
+
+.notes page 115
+
 !SLIDE
 #Big Waves
 
@@ -437,6 +445,15 @@ Other sources of Presence
 #Focus
 
 !SLIDE
+(quote from Gerry)
+
+(about pipeline)
+
+Although instinct isn't the right word, something like it, along with a clear mind, work better than thinking because, at the Pipe, there isn't enough time for thought.  A Zen-like mind that is empty of thoughts allows a strong connection with the wave...
+
+.notes page 107
+
+!SLIDE
 #Awareness
 
 .notes listen to your body, pay attention to all your sense
@@ -455,3 +472,8 @@ Other sources of Presence
 !SLIDE
 (quote from Gerry)
 
+(after surfing amazing waves in Sumatra)
+
+Anytime I go surfing can be a religious experience if I let it.  It is an up close encounter with one of our world's greatest natural wonders. Out here on the edge of the known world, far from the distractions of civilizations...
+
+.notes page 166
