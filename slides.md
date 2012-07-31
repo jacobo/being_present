@@ -12,6 +12,8 @@
 ![](logos/engine-yard.png)
 ![](jacob/coding.gif)
 
+.notes TODO: insert a slide with a piece of code from my earlier lightning talk
+
 !SLIDE center
 # What is presence?
 
@@ -24,35 +26,8 @@
 !SLIDE center
 # Focus
 
-!SLIDE
-    @@@ruby
-    def traversal_from_hash(from_hash)
-      traversal = Proc.new do |hash_a, hash_b, opts1|
-        a_vals = []
-        b_vals = []
-        sub_procs = [Proc.new{ "" }]
-        hash_a.each do |key, value|
-          if (value.is_a?(Hash) && hash_b[key].is_a?(Hash))
-            sub_procs << Proc.new do |opts2|
-              traversal.call(value, hash_b[key], opts2)
-            end
-          else
-            unless hash_b[key].nil?
-              a_vals << value
-              b_vals << hash_b[key]
-            end
-          end
-        end
-        sub_proc = Proc.new do |opts3|
-          sub_procs.collect do |sp|
-            sp.call(opts3)
-          end.join("")
-        end
-        a_vals.uniq.collect do |a_val|
-          yield a_val, b_vals, sub_proc, opts1
-        end
-      end
-    end
+!SLIDE[bg=family/alicia.jpg]
+# Who here Surfs?
 
 .notes Did you catch that? How do you understand what's going on there? Are you stepping through it line by line.  Mental Ruby Evaluator maybe?
 
@@ -127,6 +102,9 @@
 !SLIDE[bg=surfing/zenhippy.jpg]
 &nbps;
 
+!SLIDE[bg=friends/jorge.jpg]
+&nbps;
+
 !SLIDE[bg=surfing/treepose.png]
 &nbps;
 
@@ -172,7 +150,11 @@
 
 .notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
 
-It made me think that maybe sometimes we have to back to the beginning to find the answers to the questions we have at the end.  The answers may be so simple that it is easily overlooked. If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed. It's there, so keep padding where it leads.
+!SLIDE center align-left
+## Sometimes we have to back to the beginning to find the answers to the questions we have at the end.
+## The answers may be so simple that it is easily overlooked.
+## If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed.
+## It's there, so keep padding where it leads.
 
 .notes page 128
 
@@ -186,17 +168,47 @@ It made me think that maybe sometimes we have to back to the beginning to find t
         return false
       end
 
+!SLIDE
+    @@@ruby
+    def traversal_from_hash(from_hash)
+      traversal = Proc.new do |hash_a, hash_b, opts1|
+        a_vals = []
+        b_vals = []
+        sub_procs = [Proc.new{ "" }]
+        hash_a.each do |key, value|
+          if (value.is_a?(Hash) && hash_b[key].is_a?(Hash))
+            sub_procs << Proc.new do |opts2|
+              traversal.call(value, hash_b[key], opts2)
+            end
+          else
+            unless hash_b[key].nil?
+              a_vals << value
+              b_vals << hash_b[key]
+            end
+          end
+        end
+        sub_proc = Proc.new do |opts3|
+          sub_procs.collect do |sp|
+            sp.call(opts3)
+          end.join("")
+        end
+        a_vals.uniq.collect do |a_val|
+          yield a_val, b_vals, sub_proc, opts1
+        end
+      end
+    end
+
 .notes Usually mine involve instance_eval and going down other overly complex rabbit holes when a simple Method or Class would do just fine. This is why we pair. But also, this is healthy. This is good for us.  The ocean always wins and humility is healthy.
 
 !SLIDE[bg=ed/stylecrouch.jpg]
 # Getting to the next level
 
-!SLIDE[bg=scene/winter.jpg]
+!SLIDE[bg=scene/mainewinter.jpg]
 # Dedication
 
 .notes I've taken many people out for their first surf. Or first few surfs. Only a few have truly taken to it.  Made it a priority.
 
-!SLIDE[bg=scene/jenness.jpg]
+!SLIDE[bg=scene/bocabarranca.jpg]
 # Priorities
 
 !SLIDE bullets incremental
@@ -209,146 +221,120 @@ It made me think that maybe sometimes we have to back to the beginning to find t
 
 .notes I don't have the great big grey Gandalf beard up here to really sell this to you like it's a lifetime of wisdom. But I buy into it.
 
-!SLIDE
+!SLIDE[bg=jacob/esterillos.jpg]
 # Faith = Surf
-(of course)
-[picture of me surfing]
 
 .notes Faith means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
+.notes this is an assignment, not an assertion. I've chosen this assignment for my faith.
 
-!SLIDE
+!SLIDE[bg=friends/jorge2.jpg]
 # Balance
-[picture of beach yoga from after our wedding]
 
 .notes this is an ordered list, but there are no absolutes.  Friends don't ALWAYS take priority over work. There is balance
 
-!SLIDE
+!SLIDE[bg=faith/buddha.jpg]
 # The Buddha
-[picture of the Buddha]
 
 .notes The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
+.notes TODO: where are the picture of surfing in the Philippines! (and Hong Kong statue of Buddha)
 
-!SLIDE
+!SLIDE[bg=family/jbirdwin.jpg]
 # Health
-(Surfing is good for you)
 
-[picture of J-Bird showing muscles?]
+.notes Surfing is good for you
+.notes good for your wrists. TODO: good for so many thing
+.notes Vitamin D
 
-.notes good for your wrists
-
-!SLIDE
+!SLIDE[bg=family/thanksgiving.jpg]
 # Family
-(surf with your Family)
 
-[picture of my Apple family]
-
-!SLIDE
+!SLIDE[bg=family/shiva.jpg]
 # Shiva
-
-[picture of shiva stoked and padding]
 
 .notes Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by Took my on my first Surf. He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.
 
-!SLIDE
+!SLIDE[bg=family/jbird.jpg]
 # J-Bird
-
-[picture of J-Bird on a sweet wave]
 
 .notes My lifelong surf companion. My Wife. An Obsession with perfection.  And with surfing.
 A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave. Her stoke never fades.
 
-!SLIDE
+!SLIDE[bg=friends/beachkooks.jpg]
 # Friends
-(surf with your Friends)
 
-[picture of luke and other on beach]
+!SLIDE[bg=friends/cynthia.jpg]
+#Cynthia
 
-!SLIDE
-#Cynthia's Story
-Surfing is My Drug
+.notes Surfing is My Drug
 
-[picture of cynthia]
+!SLIDE[bg=friends/chris.jpg]
+#Chris
 
-!SLIDE
-#Chris's Story (the red)
-keeps me sane (or less insane)
+.notes keeps me sane (or less insane)
 
-[picture of chris]
-
-!SLIDE
+!SLIDE[bg=friends/post-mago-surf.jpg]
 #Post-Mango Surf
-
-[picture of mangos]
 
 !SLIDE
 # Work
 (surf before you go to work)
 
-!SLIDE
+!SLIDE[bg=ed/yellow.jpg] align-left
 # Ed
 
 .notes I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
+.notes It's critical to always mix work and surfing. The yellow board, a big hull shaped by Ryan Lovelace, was picked up while I was in LA, repairing COSs and meeting customers. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef. In between each session, I repaired a COS. It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
 
-!SLIDE
-# My surf lifestyle
+!SLIDE align-left
+## It's critical to always mix work and surfing.
+## The yellow board, was picked up while I was in LA, repairing COSs and meeting customers.
+## I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef. In between each session, I repaired a COS.
+## It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
 
-!SLIDE
+!SLIDE[bg=scene/sanpancho.jpg]
+# Surf Lifestyle
+
+!SLIDE[bg=scene/phillipine-sunrise.jpg]
 # Wake up at 6
 
-!SLIDE
+!SLIDE[bg=scene/lindamar.jpg]
 # In the water by 7
 
-!SLIDE
+!SLIDE[bg=scene/dunes.jpg]
 # Out by 9
 
 !SLIDE
 # 10 am standup
 
-!SLIDE
+!SLIDE[bg=jacob/lunch.jpg]
 # The Massive Lunch
 
-!SLIDE
+!SLIDE[bg=jacob/layback.jpg]
 # The Joy of Living
 
 .notes pair says: OMG this bug or this problem :-( I say: OMG this bug! :-) It's so interesting. So intriguing. why why why. how how how.
 
-!SLIDE
-# Surf Safari on the Weekends
+!SLIDE[bg=jacob/safari.jpg]
+# Weekend Surf Safari
 
-!SLIDE
-# Beach Boys: 
-Lets go surfin now
-Everybodys learning how
-Come on and safari with me
+.notes Lets go surfin now. Everybodys learning how. Come on and safari with me.
 
-!SLIDE
-# We have a great coastline
-Marin county
-The usual weekday breaks
-State Parks
-Santa Cruz
+!SLIDE[bg=scene/tunitas.jpg]
+# The Coastline
 
-!SLIDE
-# ahh Santa Cruz
+.notes Marin county. The usual weekday breaks. State Parks.  Santa Cruz
 
-!SLIDE
-# The long peeling waves
+!SLIDE[bg=scene/santacruz.jpg]
+# Santa Cruz
 
-!SLIDE
-# Sweet Sweet longboard rides
-
-!SLIDE
-# Otters!
-
-!SLIDE
-# But the people :-(
+.notes The long peeling waves. Sweet Sweet longboard rides. Otters! But the people :-(
 
 !SLIDE
 # Don't be Aggro!
 
 .notes PSA. Don't be the 1% that ruins surfing for the rest of us. They are like the trolls on the internet, except instead of hiding behind anonymity they hide behind a facade of "being local", and "a better surfer than you". But don't be an idiot either
 
-!SLIDE
+!SLIDE[bg=scene/cowells.jpg]
 # Surf etiquette
 
 !SLIDE

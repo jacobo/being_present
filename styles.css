@@ -2,6 +2,8 @@
 
 li {
   list-style: none;
+  font-weight: 300;
+  text-shadow: 2px 5px 5px #000;
 }
 
 div.larger {
@@ -121,6 +123,10 @@ body .slide .align-left {
   text-align: left;
   padding-left: 75px;
   padding-right: 75px;
+}
+
+body .slide .align-left h1 {
+  text-align: left;
 }
 
 body .slide .align-left h2 {
