@@ -308,12 +308,13 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 .notes I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
 .notes It's critical to always mix work and surfing. The yellow board, a big hull shaped by Ryan Lovelace, was picked up while I was in LA, repairing COSs and meeting customers. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef. In between each session, I repaired a COS. It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
+.notes The yellow board, was picked up while I was in LA. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef.
+.notes In between each session, I repaired a COS.
 
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## It's critical to always mix work and surfing.
-## The yellow board, was picked up while I was in LA. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef.
-## In between each session, I repaired a COS.
-## It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
+## The yellow board was picked up while I was in LA, repairing COSs and meeting customers.
+## ... It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
 --- Ed
 
 !SLIDE[bg=scene/greywhale.jpg] center
