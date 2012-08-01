@@ -9,6 +9,11 @@
 !SLIDE[bg=jacob/lalancha.jpg]
 # Jacob Burkhart
 
+!SLIDE[bg=family/jbird-pururan.jpg] center
+### J-Bird
+
+.notes is the reason I surf. Everything I talk about we went through together.
+
 !SLIDE[bg=scene/piersunset.jpg]
 ## github.com/jacobo/being_present
 <br/><br/><br/><br/><br/><br/>
@@ -36,10 +41,12 @@
 !SLIDE[bg=family/alicia.jpg]
 # Know the Feeling?
 
-.notes Did you catch that? How do you understand what's going on there? Are you stepping through it line by line.  Mental Ruby Evaluator maybe?
-
 !SLIDE[bg=gerry/pipeline.jpg]
 # Gerry Lopez
+
+!SLIDE[bg=gerry/patagonia.jpg]
+
+.notes characteristic smile picture
 
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## Such is the life we can know.
@@ -93,7 +100,7 @@
 &nbps;
 
 !SLIDE[bg=friends/jorge.jpg]
-### Peace
+### Harmony
 &nbps;
 
 !SLIDE[bg=surfing/treepose.png]
@@ -224,8 +231,11 @@
 
 .notes Surfing is good for you
 
+!SLIDE[bg=jacob/handstand.jpg]
+### Morning Exercise
+
 !SLIDE[bg=surfing/paddling.jpg]
-&nbsp;
+### Wrist Strength
 
 .notes good for your wrists. TODO: good for so many thing
 .notes Vitamin D
@@ -296,6 +306,9 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=scene/dunes.jpg]
 ### Out by 9
 
+!SLIDE[bg=jacob/surf-shower.jpg]
+### Quick Shower
+
 !SLIDE[bg=work/standup.jpg]
 ### Standup at 10
 
@@ -325,7 +338,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=scene/pointbreakaggro.png]
 # Don't be Aggro!
 
-.notes PSA. Don't be the 1% that ruins surfing for the rest of us. They are like the trolls on the internet, except instead of hiding behind anonymity they hide behind a facade of "being local", and "a better surfer than you". But don't be an idiot either
+.notes Application to programmers: Welcome and encourage the newbies. I don't experience this in the workplace, but I definitely see it in hiring. Just because somebody has less experience or doesn't know something "basic", doesn't mean they aren't capable of learning and possibly being better than you. Or maybe they just have a different style.
 
 !SLIDE[bg=scene/cowells.jpg]
 ### Surf etiquette
@@ -333,15 +346,17 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=scene/morocco.jpg]
 # Priority to the peak
 
-.notes Don't drop in!
+.notes Don't drop in! Give credit where due.
 
 !SLIDE[bg=surfing/controlyourboard.jpg]
 # Control your board
 
+.notes Be accountable.
+
 !SLIDE[bg=friends/rich.jpg]
 ### Ding Repair
 
-.notes Accidents happen
+.notes Accidents happen. Fix them. Get a professional to help you.
 
 !SLIDE[bg=family/dad.jpg]
 #Aloha
@@ -354,7 +369,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=surfing/twiggy.png]
 #Don't panic after you've panicked
 
-.notes Grant 'twiggy' Baker
+.notes Grant 'twiggy' Baker.  Stuff breaks in production. You might freak out. But then you must calmly 
 
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## Moments of surf realization are here to remind us of our true potential.
