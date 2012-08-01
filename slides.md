@@ -1,10 +1,13 @@
 !SLIDE[bg=scene/headon.jpg]
 &nbps;
 
+.notes relax, visualize.
+
 !SLIDE[bg=jacob/pier.jpg]
 # Hello!
 
-.notes this whole talk might come off as me saying my life is awesome. Be like me. I'm more saying: this is what works for me, can you relate. Let's have a discussion about living happy productive lives.
+.notes Let's have a discussions. I don't have the answer. I'm just telling some stories, making some connections. I'm saying: this is what works for me, can you relate? Let's have a discussion about living happy productive lives.
+.notes tell people to sit down
 
 !SLIDE[bg=jacob/lalancha.jpg]
 # Jacob Burkhart
@@ -24,13 +27,14 @@
 ![](logos/engine-yard.png)
 ![](jacob/coding.gif)
 
+.notes This is where I work. You could too.
 .notes TODO: insert a slide with a piece of code from my earlier lightning talk?
 .notes is following along with this code similar to following along with my visualization?
 
 !SLIDE center
 # What is presence?
 
-.note Escape existing only inside your head.
+.notes Escape existing only inside your head.
 
 !SLIDE center
 # Awareness
@@ -40,18 +44,22 @@
 !SLIDE center
 # Mindfulness
 
-.notes doing this with intention
+.notes doing things with intention
 
 !SLIDE center
 # Focus
 
-.notes escape the multi-tasking
+.notes escape the multi-tasking life
 
 !SLIDE[bg=family/alicia.jpg]
 # Know the Feeling?
 
+.notes I won't explain the benefits of Being Present. I can only try to explain what it's like and how I get there. And maybe that will help you find your own way there.
+
 !SLIDE[bg=gerry/pipeline.jpg]
 # Gerry Lopez
+
+.notes legendary pipeline surfer
 
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## Although instinct isn't the right word, something like it, along with a clear mind, work better than thinking because, at the Pipe, there isn't enough time for thought.
@@ -180,6 +188,7 @@
       end
     end
 
+.notes TODO: More connection to presence
 .notes Usually mine involve instance_eval and going down other overly complex rabbit holes when a simple Method or Class would do just fine. This is why we pair. But also, this is healthy. This is good for us.  The ocean always wins and humility is healthy.
 
 !SLIDE[bg=gerry/yoga.jpg]
@@ -239,7 +248,7 @@
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## Anytime I go surfing can be a religious experience if I let it. It is a close encounter with one of our world's greatest natural wonders.
 ## Out here on the edge of the known world, far from the distractions of civilization, I can more easily find this space.
-## But in reality any of us can find it anywhere, because we carry it insides us everywhere we go.
+## But in reality any of us can find it anywhere, because we carry it inside us everywhere we go.
 --- Gerry Lopez
 
 .notes page 166
@@ -251,6 +260,8 @@
 
 !SLIDE[bg=jacob/handstand.jpg]
 ### Morning Exercise
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+Bipedalism
 
 !SLIDE[bg=surfing/paddling.jpg]
 ### Wrist Strength
@@ -301,6 +312,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 ### Work
 &nbsp;
 
+.notes TODO: no child labor
 .notes surf before you go to work
 
 !SLIDE[bg=ed/yellow.jpg] align-left
