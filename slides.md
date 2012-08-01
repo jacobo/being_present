@@ -262,7 +262,7 @@
 ### Family
 
 !SLIDE[bg=family/shiva.jpg]
-&nbsp;
+### Prioritizing Surf
 
 .notes Shiva. Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by Took my on my first Surf. He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.
 
