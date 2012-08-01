@@ -1,12 +1,19 @@
 !SLIDE[bg=scene/headon.jpg]
 &nbps;
 
-!SLIDE center
+!SLIDE[bg=jacob/pier.jpg]
 # Hello!
-![](jacob/pier.jpg)
+
+.notes this whole talk might come off as me saying my life is awesome. Be like me. I'm more saying: this is what works for me, can you relate. Let's have a discussion about living happy productive lives.
 
 !SLIDE[bg=jacob/lalancha.jpg]
 # Jacob Burkhart
+
+!SLIDE[bg=scene/piersunset.jpg]
+## github.com/jacobo/being_present
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+# @igotimac
 
 !SLIDE
 ![](logos/engine-yard.png)
@@ -27,18 +34,12 @@
 # Focus
 
 !SLIDE[bg=family/alicia.jpg]
-# Who here Surfs?
+# Know the Feeling?
 
 .notes Did you catch that? How do you understand what's going on there? Are you stepping through it line by line.  Mental Ruby Evaluator maybe?
 
 !SLIDE[bg=gerry/pipeline.jpg]
 # Gerry Lopez
-
-!SLIDE
-# Surf is where you find it
-![](gerry/book.jpg)
-
-.notes So he wrote this book, and I got about halfway through it. And I picked it up again a week ago and suddenly I got to all the good stories. The ones that really talk about this hippy "Being Present" stuff
 
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## Such is the life we can know.
@@ -49,45 +50,32 @@
 
 .notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
 
-!SLIDE  center
-# Surfing
+!SLIDE[bg=surfing/huntingtonbeach.png]
+### Surfing
+&nbps;
 
 .notes What do you think of when I say surfing?
 
-!SLIDE[bg=surfing/huntingtonbeach.png]
-&nbps;
-
 !SLIDE[bg=surfing/huntingtonbeach2.png]
-&nbps;
+### Competition
 
 !SLIDE[bg=surfing/slaterusopen.jpg]
 &nbps;
 
-!SLIDE[bg=surfing/slaterob.jpg]
-&nbps;
+!SLIDE[bg=surfing/alanablanchard.jpg]
+### Endorsements
 
 !SLIDE[bg=surfing/alanascloset.jpg]
 &nbps;
 
-!SLIDE[bg=surfing/alanablanchard.jpg]
-&nbps;
-
-!SLIDE[bg=surfing/teahupoo.jpg]
-&nbps;
-
-.notes http://en.wikipedia.org/wiki/Teahupo'o
-
 !SLIDE[bg=surfing/mavs.jpg]
-&nbps;
+### Big Wave Surf
 
 !SLIDE[bg=surfing/jeffclark.jpg]
 &nbps;
 
-!SLIDE[bg=surfing/danereynolds.jpg]
-&nbps;
-
-!SLIDE[bg=surfing/rellsunn.jpg]
-&nbps;
+!SLIDE[bg=surfing/danereynolds.jpg] center
+### Style
 
 !SLIDE[bg=surfing/kassiameador.jpg]
 &nbps;
@@ -95,6 +83,7 @@
 .notes Growing up at Malibu and surfing there, I was able to see some of the best surfers in the world. I am a very visual person. That’s why I am into photography and I really enjoy films. So aesthetically, I will just like the way someone surfs, especially if they are smooth. That’s why I like how Joel (Tudor) surfs or someone like Dane Peterson. A smooth style is something that I appreciate and I want to emulate with my surfing. I really have a difficult time watching people surf when they are just “all over the place,” I just can’t visually accept it. (laughs)
 
 !SLIDE[bg=surfing/hippies.jpg]
+### Peace
 &nbps;
 
 !SLIDE[bg=surfing/hippies2.jpg]
@@ -104,12 +93,14 @@
 &nbps;
 
 !SLIDE[bg=friends/jorge.jpg]
+### Peace
 &nbps;
 
 !SLIDE[bg=surfing/treepose.png]
 &nbps;
 
 !SLIDE[bg=surfing/hampton-nh.jpg]
+### I Started Here
 &nbps;
 
 !SLIDE
@@ -136,29 +127,6 @@
 # Kooking it up
 
 .notes http://surfergrrrl.blogspot.com/2012/07/social-sunday-sloppy-surf-hmb-jetty.html
-
-!SLIDE[bg=gerry/yoga.jpg]
-# Gerry Lopez
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-(not a Kook)
-
-.notes You seem him talking in surf movies, and he's just so relaxed and Zen. I envy his vibe.
-
-!SLIDE[bg=gerry/g-land.jpg] bullets incremental
-# G-Land
-* Grajagan Bay, Indonesia
-* The ocean always wins
-
-.notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
-
-!SLIDE[bg=bgquotes.jpg] center align-left
-## Sometimes we have to back to the beginning to find the answers to the questions we have at the end.
-## The answers may be so simple that it is easily overlooked.
-## If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed.
-## It's there, so keep padding where it leads.
---- Gerry Lopez
-
-.notes page 128
 
 !SLIDE
 # We have kook moments in programming too
@@ -202,6 +170,18 @@
 
 .notes Usually mine involve instance_eval and going down other overly complex rabbit holes when a simple Method or Class would do just fine. This is why we pair. But also, this is healthy. This is good for us.  The ocean always wins and humility is healthy.
 
+!SLIDE[bg=gerry/yoga.jpg]
+# Gerry Lopez
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+(not a Kook)
+
+!SLIDE[bg=bgquotes.jpg] center align-left
+## If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed.
+## It's there, so keep padding where it leads.
+--- Gerry Lopez
+
+.notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
+
 !SLIDE[bg=ed/stylecrouch.jpg]
 # Getting to the next level
 
@@ -213,7 +193,7 @@
 !SLIDE[bg=scene/bocabarranca.jpg]
 # Priorities
 
-!SLIDE bullets incremental
+!SLIDE[bg=scene/foggymontara.jpg] bullets incremental
 # The 5 Priorities
 * Faith
 * Health
@@ -229,7 +209,7 @@
 .notes Balance. this is an ordered list, but there are no absolutes.  Friends don't ALWAYS take priority over work. There is balance
 
 !SLIDE[bg=jacob/esterillos.jpg]
-# Faith = Surf
+### Faith = Surf
 
 .notes Faith means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
 .notes this is an assignment, not an assertion. I've chosen this assignment for my faith.
@@ -238,21 +218,20 @@
 &nbsp;
 
 .notes Buddha. The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
-.notes TODO: where are the picture of surfing in the Philippines! (and Hong Kong statue of Buddha)
 
 !SLIDE[bg=family/jbirdwin.jpg]
-# Health
+### Health
 
 .notes Surfing is good for you
 
-!SLIDE[bg=friends/mudbath.jpg]
+!SLIDE[bg=surfing/paddling.jpg]
 &nbsp;
 
 .notes good for your wrists. TODO: good for so many thing
 .notes Vitamin D
 
 !SLIDE[bg=family/thanksgiving.jpg]
-# Family
+### Family
 
 !SLIDE[bg=family/shiva.jpg]
 &nbsp;
@@ -266,7 +245,7 @@
 A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave. Her stoke never fades.
 
 !SLIDE[bg=friends/beachkooks.jpg]
-# Friends
+### Friends
 
 !SLIDE[bg=friends/cynthia.jpg]
 &nbsp;
@@ -283,14 +262,14 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 .notes Post-Mango Surf
 
-!SLIDE
-# Work
+!SLIDE[bg=work/candyman.jpg]
+### Work
 &nbsp;
 
 .notes surf before you go to work
 
 !SLIDE[bg=ed/yellow.jpg] align-left
-&nbsp;
+# Ed
 
 .notes I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
 .notes It's critical to always mix work and surfing. The yellow board, a big hull shaped by Ryan Lovelace, was picked up while I was in LA, repairing COSs and meeting customers. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef. In between each session, I repaired a COS. It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
@@ -302,27 +281,26 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 ## It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
 --- Ed
 
-!SLIDE
-# Find your Faith
-## What is your source of presence?
+!SLIDE[bg=scene/greywhale.jpg] center
+# What is your source of presence?
 
 !SLIDE[bg=scene/sanpancho.jpg]
 # Surf Lifestyle
 
 !SLIDE[bg=scene/phillipine-sunrise.jpg]
-# Wake up at 6
+### Wake up at 6
 
 !SLIDE[bg=scene/lindamar.jpg]
-# In the water by 7
+### In the water by 7
 
 !SLIDE[bg=scene/dunes.jpg]
-# Out by 9
+### Out by 9
 
 !SLIDE[bg=work/standup.jpg]
-# Standup at 10
+### Standup at 10
 
 !SLIDE[bg=jacob/lunch.jpg]
-# The Massive Lunch
+### The Massive Lunch
 
 !SLIDE[bg=jacob/layback.jpg]
 # Pura Vida
@@ -330,7 +308,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 .notes pair says: OMG this bug or this problem :-( I say: OMG this bug! :-) It's so interesting. So intriguing. why why why. how how how.
 
 !SLIDE[bg=jacob/safari.jpg]
-# Weekend Surf Safari
+### Weekend Surf Safari
 
 .notes Lets go surfin now. Everybodys learning how. Come on and safari with me.
 
@@ -350,15 +328,18 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 .notes PSA. Don't be the 1% that ruins surfing for the rest of us. They are like the trolls on the internet, except instead of hiding behind anonymity they hide behind a facade of "being local", and "a better surfer than you". But don't be an idiot either
 
 !SLIDE[bg=scene/cowells.jpg]
-# Surf etiquette
+### Surf etiquette
 
 !SLIDE[bg=scene/morocco.jpg]
-#Priority to the peak
+# Priority to the peak
 
-.notes Don't drop in! Control your board
+.notes Don't drop in!
+
+!SLIDE[bg=surfing/controlyourboard.jpg]
+# Control your board
 
 !SLIDE[bg=friends/rich.jpg]
-#Ding Repair
+### Ding Repair
 
 .notes Accidents happen
 
@@ -367,13 +348,8 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 .notes Cheer for strangers. Share the waves.
 
-!SLIDE[bg=beginners/stoked.jpg]
-# Learn to Surf
-
-.notes Goofy or Regular. paddling. the pop up. cover your head. hold your breath
-
-!SLIDE
-#The hold down
+!SLIDE[bg=surfing/holddown.jpg]
+### Hold Down
 
 !SLIDE[bg=surfing/twiggy.png]
 #Don't panic after you've panicked
@@ -381,7 +357,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 .notes Grant 'twiggy' Baker
 
 !SLIDE[bg=bgquotes.jpg] center align-left
-## Momments of surf realization are here to remind us of our true potential.
+## Moments of surf realization are here to remind us of our true potential.
 ## If that is why we surf, that's good because surfing reconnects us to who we really are. 
 ## This is all more reason to keep surfing. 
 ## Life is good. Surfing reminds us of how good life is.
@@ -389,14 +365,20 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 .notes page 115
 
-!SLIDE
-#Perrin's Story
-patience
-"No other thoughts in my head"
+!SLIDE[bg=friends/perin.jpg]
+### Patience
+&nbsp;
 
-!SLIDE
-#Darren's Story
-Interviewed at facebook. But you know, I have a pretty sweet life...
+.notes patience
+.notes "No other thoughts in my head"
+
+!SLIDE[bg=friends/darren.jpg]
+### Appreciation
+
+.notes You know, I have a pretty sweet life...
+
+!SLIDE center
+#The End
 
 !SLIDE
 #Priorities!
@@ -458,3 +440,8 @@ Although instinct isn't the right word, something like it, along with a clear mi
 Anytime I go surfing can be a religious experience if I let it.  It is an up close encounter with one of our world's greatest natural wonders. Out here on the edge of the known world, far from the distractions of civilizations...
 
 .notes page 166
+
+!SLIDE[bg=beginners/stoked.jpg]
+# Learn to Surf
+
+.notes Goofy or Regular. paddling. the pop up. cover your head. hold your breath
