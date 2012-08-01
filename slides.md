@@ -12,7 +12,7 @@
 !SLIDE[bg=family/jbird-pururan.jpg] center
 ### J-Bird
 
-.notes is the reason I surf. Everything I talk about we went through together.
+.notes J-Bird is the reason I surf. Everything I talk about we went through together.
 
 !SLIDE[bg=scene/piersunset.jpg]
 ## github.com/jacobo/being_present
@@ -24,19 +24,28 @@
 ![](logos/engine-yard.png)
 ![](jacob/coding.gif)
 
-.notes TODO: insert a slide with a piece of code from my earlier lightning talk
+.notes TODO: insert a slide with a piece of code from my earlier lightning talk?
+.notes is following along with this code similar to following along with my visualization?
 
 !SLIDE center
 # What is presence?
 
+.note Escape existing only inside your head.
+
 !SLIDE center
 # Awareness
+
+.notes of what around you and how your body feels
 
 !SLIDE center
 # Mindfulness
 
+.notes doing this with intention
+
 !SLIDE center
 # Focus
+
+.notes escape the multi-tasking
 
 !SLIDE[bg=family/alicia.jpg]
 # Know the Feeling?
@@ -44,18 +53,13 @@
 !SLIDE[bg=gerry/pipeline.jpg]
 # Gerry Lopez
 
-!SLIDE[bg=gerry/patagonia.jpg]
-
-.notes characteristic smile picture
-
 !SLIDE[bg=bgquotes.jpg] center align-left
-## Such is the life we can know.
-## Living in the past and in the future - in recollection and in anticipation - creates a less clear picture of the present.
-## By being in the here and now we understand that the past and future only exist in the present.
-## That's all there is, but speaking for myself, I couldn't ask for more.
+## Although instinct isn't the right word, something like it, along with a clear mind, work better than thinking because, at the Pipe, there isn't enough time for thought.
+## A Zen-like mind that is empty of thoughts allows a strong connection with the wave.
+## It lets the surfer be in touch with the wave as opposed to being apart from it.
 --- Gerry Lopez
 
-.notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
+.notes Surf is where you find it: page 107
 
 !SLIDE[bg=surfing/huntingtonbeach.png]
 ### Surfing
@@ -72,11 +76,15 @@
 !SLIDE[bg=surfing/alanablanchard.jpg]
 ### Endorsements
 
+.notes Everyone needs marketing, I guess?
+
 !SLIDE[bg=surfing/alanascloset.jpg]
 &nbps;
 
 !SLIDE[bg=surfing/mavs.jpg]
 ### Big Wave Surf
+
+.notes like the the compiler developers and the rubinius and jruby guys. Big heavy stuff.
 
 !SLIDE[bg=surfing/jeffclark.jpg]
 &nbps;
@@ -91,9 +99,6 @@
 
 !SLIDE[bg=surfing/hippies.jpg]
 ### Peace
-&nbps;
-
-!SLIDE[bg=surfing/hippies2.jpg]
 &nbps;
 
 !SLIDE[bg=surfing/zenhippy.jpg]
@@ -133,10 +138,10 @@
 !SLIDE[bg=surfing/jettykooks.jpg]
 # Kooking it up
 
-.notes http://surfergrrrl.blogspot.com/2012/07/social-sunday-sloppy-surf-hmb-jetty.html
+.notes Like writing terrible terrible code on purpose just to explore something. Or to teach something.
 
 !SLIDE
-# We have kook moments in programming too
+# Kook moments in programming
 
     @@@ruby bigcode
       if value == true
@@ -210,6 +215,11 @@
 
 .notes I don't have the great big grey Gandalf beard up here to really sell this to you like it's a lifetime of wisdom. But I buy into it.
 
+!SLIDE[bg=faith/buddha.jpg]
+&nbsp;
+
+.notes Buddha. The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
+
 !SLIDE[bg=friends/jorge2.jpg]
 # Balance
 
@@ -221,10 +231,18 @@
 .notes Faith means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
 .notes this is an assignment, not an assertion. I've chosen this assignment for my faith.
 
-!SLIDE[bg=faith/buddha.jpg]
+!SLIDE[bg=gerry/patagonia.jpg]
 &nbsp;
 
-.notes Buddha. The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.
+.notes characteristic smile picture
+
+!SLIDE[bg=bgquotes.jpg] center align-left
+## Anytime I go surfing can be a religious experience if I let it. It is a close encounter with one of our world's greatest natural wonders.
+## Out here on the edge of the known world, far from the distractions of civilization, I can more easily find this space.
+## But in reality any of us can find it anywhere, because we carry it insides us everywhere we go.
+--- Gerry Lopez
+
+.notes page 166
 
 !SLIDE[bg=family/jbirdwin.jpg]
 ### Health
@@ -249,6 +267,7 @@
 .notes Shiva. Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by Took my on my first Surf. He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.
 
 !SLIDE[bg=family/jbird.jpg]
+### Sharing the Stoke
 &nbsp;
 
 .notes J-Bird. My lifelong surf companion. My Wife. An Obsession with perfection.  And with surfing.
@@ -258,12 +277,12 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 ### Friends
 
 !SLIDE[bg=friends/cynthia.jpg]
-&nbsp;
+### Addiction
 
 .notes Cynthia: Surfing is My Drug
 
 !SLIDE[bg=friends/chris.jpg]
-&nbsp;
+### Sanity
 
 .notes Chris: Surfing keeps me sane (or less insane)
 
@@ -271,6 +290,12 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 &nbsp;
 
 .notes Post-Mango Surf
+
+!SLIDE[bg=friends/perin.jpg]
+### Patience
+
+.notes patience
+.notes "No other thoughts in my head"
 
 !SLIDE[bg=work/candyman.jpg]
 ### Work
@@ -299,6 +324,8 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 !SLIDE[bg=scene/phillipine-sunrise.jpg]
 ### Wake up at 6
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+(J-Bird drags me out of Bed at 6)
 
 !SLIDE[bg=scene/lindamar.jpg]
 ### In the water by 7
@@ -319,6 +346,14 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 # Pura Vida
 
 .notes pair says: OMG this bug or this problem :-( I say: OMG this bug! :-) It's so interesting. So intriguing. why why why. how how how.
+
+!SLIDE[bg=bgquotes.jpg] center align-left
+## Such is the life we can know.
+## Living in the past and in the future - in recollection and in anticipation - creates a less clear picture of the present.
+## By being in the here and now we understand that the past and future only exist in the present.
+--- Gerry Lopez
+
+.notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
 
 !SLIDE[bg=jacob/safari.jpg]
 ### Weekend Surf Safari
@@ -345,26 +380,31 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 !SLIDE[bg=scene/morocco.jpg]
 # Priority to the peak
+Give credit when due
 
 .notes Don't drop in! Give credit where due.
 
 !SLIDE[bg=surfing/controlyourboard.jpg]
 # Control your board
+Be accountable
 
 .notes Be accountable.
 
 !SLIDE[bg=friends/rich.jpg]
 ### Ding Repair
+Accidents happen
 
-.notes Accidents happen. Fix them. Get a professional to help you.
+.notes Fix them. Get a professional to help you.
 
 !SLIDE[bg=family/dad.jpg]
-#Aloha
+### Aloha
+Share and Encourage
 
 .notes Cheer for strangers. Share the waves.
 
 !SLIDE[bg=surfing/holddown.jpg]
-### Hold Down
+### The Hold Down
+Relaxing under Stress
 
 !SLIDE[bg=surfing/twiggy.png]
 #Don't panic after you've panicked
@@ -380,83 +420,5 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 .notes page 115
 
-!SLIDE[bg=friends/perin.jpg]
-### Patience
-&nbsp;
-
-.notes patience
-.notes "No other thoughts in my head"
-
-!SLIDE[bg=friends/darren.jpg]
-### Appreciation
-
-.notes You know, I have a pretty sweet life...
-
-!SLIDE center
-#The End
-
-!SLIDE
-#Priorities!
-
-!SLIDE
-#Be ready when the surf is up
-
-!SLIDE
-#Be patient when it's not
-
-!SLIDE
-#Find your style
-
-!SLIDE
-#Presence
-
-!SLIDE
-Other sources of Presence
-  - rock climbing
-  - sky diving
-  - vinyasa flow
-  - meditation
-  - music
-  - "this guy holding his hands up to worship jesus"
-
-!SLIDE
-#Focus
-
-!SLIDE
-(quote from Gerry)
-
-(about pipeline)
-
-Although instinct isn't the right word, something like it, along with a clear mind, work better than thinking because, at the Pipe, there isn't enough time for thought.  A Zen-like mind that is empty of thoughts allows a strong connection with the wave...
-
-.notes page 107
-
-!SLIDE
-#Awareness
-
-.notes listen to your body, pay attention to all your sense
-
-!SLIDE
-#Determination
-
-!SLIDE
-#Aspiration
-
-.notes always try to be a better surfer, a better programmer, a better public speaker
-
-!SLIDE
-#Patience
-
-!SLIDE
-(quote from Gerry)
-
-(after surfing amazing waves in Sumatra)
-
-Anytime I go surfing can be a religious experience if I let it.  It is an up close encounter with one of our world's greatest natural wonders. Out here on the edge of the known world, far from the distractions of civilizations...
-
-.notes page 166
-
-!SLIDE[bg=beginners/stoked.jpg]
-# Learn to Surf
-
-.notes Goofy or Regular. paddling. the pop up. cover your head. hold your breath
+!SLIDE[bg=scene/bird.jpg]
+### Musical Finale
