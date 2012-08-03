@@ -75,6 +75,9 @@
 
 .notes What do you think of when I say surfing?
 
+!SLIDE[bg=logos/birdswell.png]
+&nbps;
+
 !SLIDE[bg=surfing/huntingtonbeach2.png]
 ### Competition
 
@@ -324,6 +327,12 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 !SLIDE[bg=scene/greywhale.jpg] center
 # What is your source of presence?
+
+!SLIDE[bg=westport/beach.png]
+### Westport
+
+!SLIDE[bg=westport/map.png]
+&nbsp;
 
 !SLIDE[bg=scene/sanpancho.jpg]
 # Surf Lifestyle
