@@ -146,17 +146,8 @@
 !SLIDE[bg=surfing/jettykooks.jpg]
 # Kooking it up
 
+.notes kooking it up sometimes means lazily catching a wave and riding it straight on, instead of going for the "down the line" maneuver.
 .notes Like writing terrible terrible code on purpose just to explore something. Or to teach something.
-
-!SLIDE
-# Kook moments in programming
-
-    @@@ruby bigcode
-      if value == true
-        return true
-      else
-        return false
-      end
 
 !SLIDE
     @@@ruby
@@ -188,6 +179,9 @@
       end
     end
 
+.notes kook programmer
+.notes the simple explanation is I should have paired
+.notes that harder lesson is that this code works. And it's ok to be a kook sometimes. Or rather, when you are stuck, fall back on what you know. and more on. this code was written with a puts statement between every line with lots of slow iterations.
 .notes TODO: More connection to presence
 .notes Usually mine involve instance_eval and going down other overly complex rabbit holes when a simple Method or Class would do just fine. This is why we pair. But also, this is healthy. This is good for us.  The ocean always wins and humility is healthy.
 
@@ -197,6 +191,7 @@
 (not a Kook)
 
 !SLIDE[bg=bgquotes.jpg] center align-left
+## The answer may be so simple that it is easily overlooked.
 ## If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed.
 ## It's there, so keep padding where it leads.
 --- Gerry Lopez
@@ -298,9 +293,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 .notes Chris: Surfing keeps me sane (or less insane)
 
 !SLIDE[bg=friends/post-mago-surf.jpg]
-&nbsp;
-
-.notes Post-Mango Surf
+### Post-Mango Surf
 
 !SLIDE[bg=friends/perin.jpg]
 ### Patience
@@ -308,7 +301,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 .notes patience
 .notes "No other thoughts in my head"
 
-!SLIDE[bg=work/candyman.jpg]
+!SLIDE[bg=work/thom.jpg]
 ### Work
 &nbsp;
 
@@ -386,16 +379,16 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=scene/pointbreakaggro.png]
 # Don't be Aggro!
 
-.notes Application to programmers: Welcome and encourage the newbies. I don't experience this in the workplace, but I definitely see it in hiring. Just because somebody has less experience or doesn't know something "basic", doesn't mean they aren't capable of learning and possibly being better than you. Or maybe they just have a different style.
+.notes Application to programmers: Welcome and encourage new ideas. Be constructive not negative. We don't do this face to face, but we see it anonymized online all the time. "Haters hating" A style that is not yours doesn't means it's wrong.
 
 !SLIDE[bg=scene/cowells.jpg]
 ### Surf etiquette
 
 !SLIDE[bg=scene/morocco.jpg]
 # Priority to the peak
-Give credit when due
+Don't drop in. Your chance will come.
 
-.notes Don't drop in! Give credit where due.
+.notes There's always another wave.
 
 !SLIDE[bg=surfing/controlyourboard.jpg]
 # Control your board
