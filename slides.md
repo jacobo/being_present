@@ -34,12 +34,21 @@
 
 .notes Escape existing only inside your head.
 
-!SLIDE
-# Ezekiel
-# The 2 modes
+!SLIDE[bg=faith/ezekiel.jpg]
+### Default Mental Mode
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
+Ezekiel
+
+.notes We have 2 mental modes, the default one where we are recalling that past, anticipating the future, criticizing our action.  The other one, where we are just existing.  We are happier in the 2nd one.
 
 !SLIDE[bg=process/katrina.jpg]
 ### Working Memory
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/>
+Katrina
+
+.notes Presence is a way to clear out the working memory, and make more available for the task you really want it applied to: programming.
 
 !SLIDE center
 # Awareness
@@ -59,7 +68,8 @@
 !SLIDE[bg=family/alicia.jpg]
 # Know the Feeling?
 
-.notes I won't explain the benefits of Being Present. I can only try to explain what it's like and how I get there. And maybe that will help you find your own way there.
+.notes The feeling of being present? The feeling of catching a wave?
+.note I won't explain the benefits of Being Present. I can only try to explain what it's like and how I get there. And maybe that will help you find your own way there.
 
 !SLIDE[bg=gerry/pipeline.jpg]
 # Gerry Lopez
@@ -83,6 +93,8 @@
 !SLIDE[bg=logos/birdswell.png]
 &nbps;
 
+.notes Go to birdswell.com and buy a t-shirt
+
 !SLIDE[bg=surfing/huntingtonbeach2.png]
 ### Competition
 
@@ -100,7 +112,7 @@
 !SLIDE[bg=surfing/mavs.jpg]
 ### Big Wave Surf
 
-.notes like the the compiler developers and the rubinius and jruby guys. Big heavy stuff.
+.notes like the the kernel and compiler developers and the rubinius and jruby guys. Big heavy stuff.
 
 !SLIDE[bg=surfing/jeffclark.jpg]
 &nbps;
@@ -189,9 +201,7 @@
 
 .notes kook programmer
 .notes the simple explanation is I should have paired
-.notes that harder lesson is that this code works. And it's ok to be a kook sometimes. Or rather, when you are stuck, fall back on what you know. and more on. this code was written with a puts statement between every line with lots of slow iterations.
-.notes TODO: More connection to presence
-.notes Usually mine involve instance_eval and going down other overly complex rabbit holes when a simple Method or Class would do just fine. This is why we pair. But also, this is healthy. This is good for us.  The ocean always wins and humility is healthy.
+.notes the harder lesson is that this code works. And it's ok to be a kook sometimes. Or rather, when you are stuck, fall back on what you know. This code was written with a puts statement between every line with lots of slow iterations.
 
 !SLIDE[bg=gerry/yoga.jpg]
 # Gerry Lopez
@@ -205,6 +215,7 @@
 --- Gerry Lopez
 
 .notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
+.note The ocean always wins and humility is healthy.
 
 !SLIDE[bg=ed/stylecrouch.jpg]
 # Getting to the next level
@@ -212,10 +223,13 @@
 !SLIDE[bg=scene/mainewinter.jpg]
 # Dedication
 
-.notes I've taken many people out for their first surf. Or first few surfs. Only a few have truly taken to it.  Made it a priority.
+.notes winter surfing in maine
+.notes Water Temperature http://www.ndbc.noaa.gov/view_climplot.php?station=44007&meas=st
 
 !SLIDE[bg=scene/bocabarranca.jpg]
 # Priorities
+
+.notes I've taken many people out for their first surf. Or first few surfs. Only a few have truly taken to it.  Made it a priority.
 
 !SLIDE[bg=scene/foggymontara.jpg] bullets incremental
 # The 5 Priorities
@@ -369,6 +383,9 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=scene/greywhale.jpg] center
 # What is your source of presence?
 
+!SLIDE[bg=scene/mtbachelor.jpg]
+### Travel!
+
 !SLIDE[bg=westport/beach.png]
 ### Westport
 
@@ -379,7 +396,7 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 &nbsp;
 
 !SLIDE[bg=scene/santacruz.jpg]
-# Santa Cruz
+### Santa Cruz
 
 .notes The long peeling waves. Sweet Sweet longboard rides. Otters! But the people :-(
 
@@ -387,6 +404,9 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 # Don't be Aggro!
 
 .notes Application to programmers: Welcome and encourage new ideas. Be constructive not negative. We don't do this face to face, but we see it anonymized online all the time. "Haters hating" A style that is not yours doesn't means it's wrong.
+
+!SLIDE[bg=scene/halfmoonbay.jpg]
+### Half Moon Bay
 
 !SLIDE[bg=surfing/twiggy.png]
 #Don't panic after you've panicked
