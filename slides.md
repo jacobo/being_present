@@ -28,13 +28,18 @@
 ![](jacob/coding.gif)
 
 .notes This is where I work. You could too.
-.notes TODO: insert a slide with a piece of code from my earlier lightning talk?
-.notes is following along with this code similar to following along with my visualization?
 
 !SLIDE center
 # What is presence?
 
 .notes Escape existing only inside your head.
+
+!SLIDE
+# Ezekiel
+# The 2 modes
+
+!SLIDE[bg=process/katrina.jpg]
+### Working Memory
 
 !SLIDE center
 # Awareness
@@ -325,15 +330,6 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 ## ... It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
 --- Ed
 
-!SLIDE[bg=scene/greywhale.jpg] center
-# What is your source of presence?
-
-!SLIDE[bg=westport/beach.png]
-### Westport
-
-!SLIDE[bg=westport/map.png]
-&nbsp;
-
 !SLIDE[bg=scene/sanpancho.jpg]
 # Surf Lifestyle
 
@@ -370,15 +366,17 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 
 .notes quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.
 
-!SLIDE[bg=jacob/safari.jpg]
-### Weekend Surf Safari
+!SLIDE[bg=scene/greywhale.jpg] center
+# What is your source of presence?
 
-.notes Lets go surfin now. Everybodys learning how. Come on and safari with me.
+!SLIDE[bg=westport/beach.png]
+### Westport
 
-!SLIDE[bg=scene/tunitas.jpg]
-# The Coastline
+!SLIDE[bg=westport/map.png]
+&nbsp;
 
-.notes Marin county. The usual weekday breaks. State Parks.  Santa Cruz
+!SLIDE[bg=westport/surfshop.jpg]
+&nbsp;
 
 !SLIDE[bg=scene/santacruz.jpg]
 # Santa Cruz
@@ -389,6 +387,26 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 # Don't be Aggro!
 
 .notes Application to programmers: Welcome and encourage new ideas. Be constructive not negative. We don't do this face to face, but we see it anonymized online all the time. "Haters hating" A style that is not yours doesn't means it's wrong.
+
+!SLIDE[bg=surfing/twiggy.png]
+#Don't panic after you've panicked
+
+.notes Grant 'twiggy' Baker.  Stuff breaks in production. You might freak out. But then you must calmly 
+
+!SLIDE[bg=bgquotes.jpg] center align-left
+## Moments of surf realization are here to remind us of our true potential.
+## If that is why we surf, that's good because surfing reconnects us to who we really are. 
+## This is all more reason to keep surfing. 
+## Life is good. Surfing reminds us of how good life is.
+--- Gerry Lopez
+
+.notes page 115
+
+!SLIDE[bg=scene/bird.jpg]
+### Musical Finale
+
+!SLIDE
+### Extra Time
 
 !SLIDE[bg=scene/cowells.jpg]
 ### Surf etiquette
@@ -421,19 +439,15 @@ Share and Encourage
 ### The Hold Down
 Relaxing under Stress
 
-!SLIDE[bg=surfing/twiggy.png]
-#Don't panic after you've panicked
+!SLIDE[bg=jacob/safari.jpg]
+### Weekend Surf Safari
 
-.notes Grant 'twiggy' Baker.  Stuff breaks in production. You might freak out. But then you must calmly 
+.notes Lets go surfin now. Everybodys learning how. Come on and safari with me.
 
-!SLIDE[bg=bgquotes.jpg] center align-left
-## Moments of surf realization are here to remind us of our true potential.
-## If that is why we surf, that's good because surfing reconnects us to who we really are. 
-## This is all more reason to keep surfing. 
-## Life is good. Surfing reminds us of how good life is.
---- Gerry Lopez
+!SLIDE[bg=scene/tunitas.jpg]
+# The Coastline
 
-.notes page 115
+.notes Marin county. The usual weekday breaks. State Parks.  Santa Cruz
 
 !SLIDE[bg=scene/bird.jpg]
 ### Musical Finale
