@@ -1,5 +1,5 @@
 !SLIDE[bg=scene/headon.jpg]
-&nbps;
+&nbsp;
 
 .notes relax, visualize.
 
@@ -86,12 +86,12 @@ Katrina
 
 !SLIDE[bg=surfing/huntingtonbeach.png]
 ### Surfing
-&nbps;
+&nbsp;
 
 .notes What do you think of when I say surfing?
 
 !SLIDE[bg=logos/birdswell.png]
-&nbps;
+&nbsp;
 
 .notes Go to birdswell.com and buy a t-shirt
 
@@ -99,7 +99,7 @@ Katrina
 ### Competition
 
 !SLIDE[bg=surfing/slaterusopen.jpg]
-&nbps;
+&nbsp;
 
 !SLIDE[bg=surfing/alanablanchard.jpg]
 ### Endorsements
@@ -107,7 +107,7 @@ Katrina
 .notes Everyone needs marketing, I guess?
 
 !SLIDE[bg=surfing/alanascloset.jpg]
-&nbps;
+&nbsp;
 
 !SLIDE[bg=surfing/mavs.jpg]
 ### Big Wave Surf
@@ -115,33 +115,33 @@ Katrina
 .notes like the the kernel and compiler developers and the rubinius and jruby guys. Big heavy stuff.
 
 !SLIDE[bg=surfing/jeffclark.jpg]
-&nbps;
+&nbsp;
 
 !SLIDE[bg=surfing/danereynolds.jpg] center
 ### Style
 
 !SLIDE[bg=surfing/kassiameador.jpg]
-&nbps;
+&nbsp;
 
 .notes Growing up at Malibu and surfing there, I was able to see some of the best surfers in the world. I am a very visual person. That’s why I am into photography and I really enjoy films. So aesthetically, I will just like the way someone surfs, especially if they are smooth. That’s why I like how Joel (Tudor) surfs or someone like Dane Peterson. A smooth style is something that I appreciate and I want to emulate with my surfing. I really have a difficult time watching people surf when they are just “all over the place,” I just can’t visually accept it. (laughs)
 
 !SLIDE[bg=surfing/hippies.jpg]
 ### Peace
-&nbps;
+&nbsp;
 
 !SLIDE[bg=surfing/zenhippy.jpg]
-&nbps;
+&nbsp;
 
 !SLIDE[bg=friends/jorge.jpg]
 ### Harmony
-&nbps;
+&nbsp;
 
 !SLIDE[bg=surfing/treepose.png]
-&nbps;
+&nbsp;
 
 !SLIDE[bg=surfing/hampton-nh.jpg]
 ### I Started Here
-&nbps;
+&nbsp;
 
 !SLIDE
 # Kook

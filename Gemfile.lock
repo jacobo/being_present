@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/jacobo/showoff.git
-  revision: e1af36ff12e285382d2cf3ccaf08de9dbdd48550
+  revision: e1f4ce63e700b2cb4e369565a08c9b408f78cd0d
   specs:
     showoff (0.7.0)
       gli (>= 1.3.2)
@@ -15,34 +15,34 @@ GEM
   specs:
     blankslate (2.1.2.4)
     bluecloth (2.2.0)
-    coderay (1.0.7)
+    coderay (1.0.9)
     gli (1.6.0)
-    json (1.7.4)
-    method_source (0.8)
-    nokogiri (1.5.5)
-    parslet (1.4.0)
+    json (1.8.0)
+    method_source (0.8.1)
+    nokogiri (1.5.9)
+    parslet (1.5.0)
       blankslate (~> 2.0)
-    pry (0.9.10)
+    pry (0.9.12.2)
       coderay (~> 1.0.5)
       method_source (~> 0.8)
-      slop (~> 3.3.1)
-    rack (1.4.1)
-    rack-protection (1.2.0)
+      slop (~> 3.4)
+    rack (1.5.2)
+    rack-protection (1.5.0)
       rack
-    redcarpet (2.1.1)
-    sinatra (1.3.2)
-      rack (~> 1.3, >= 1.3.6)
-      rack-protection (~> 1.2)
-      tilt (~> 1.3, >= 1.3.3)
-    slop (3.3.2)
-    tilt (1.3.3)
+    redcarpet (2.3.0)
+    sinatra (1.4.2)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    slop (3.4.5)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   bluecloth
-  gli
+  gli (= 1.6.0)
   nokogiri
   pry
   showoff!

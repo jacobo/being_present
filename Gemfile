@@ -2,5 +2,7 @@ source :rubygems
 gem 'bluecloth'
 gem 'nokogiri'
 gem 'showoff', :git => "git://github.com/jacobo/showoff.git"
-gem 'gli'
 gem 'pry'
+
+#TODO: what is this?
+gem 'gli', "1.6.0"
