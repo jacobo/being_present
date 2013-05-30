@@ -1,0 +1,873 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <title>Presentation</title>
+
+  <meta name="viewport" content="width=device-width"/>
+
+  <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+  <link rel="stylesheet" href="./css/showoff.css" type="text/css"/>
+
+  <link type="text/css" href="./css/fg.menu.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/theme/ui.all.css" media="screen" rel="stylesheet" />
+  <link type="text/css" href="./css/sh_style.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="./js/jquery-1.4.2.min.js"></script>
+  <script type="text/javascript" src="./js/jquery.cycle.all.js"></script>
+	<script type="text/javascript" src="./js/jquery-print.js"></script>
+  <script type="text/javascript" src="./js/jquery.batchImageLoad.js"></script>
+
+  <script type="text/javascript" src="./js/jquery.doubletap-0.1.js"></script>
+
+  <script type="text/javascript" src="./js/fg.menu.js"></script>
+  <script type="text/javascript" src="./js/showoff.js"></script>
+  <script type="text/javascript" src="./js/jTypeWriter.js"> </script>
+  <script type="text/javascript" src="./js/sh_main.min.js"></script>
+  <script type="text/javascript" src="./js/core.js"></script>
+  <script type="text/javascript" src="./js/showoffcore.js"></script>
+  <script type="text/javascript" src="./js/coffee-script.js"></script>
+
+  
+    
+      <script type="text/javascript" src="./js/sh_lang/sh_ruby.min.js"></script>
+    
+  
+
+  
+    <link rel="stylesheet" href="./file/000_sh_vim-dark.css" type="text/css"/>
+  
+    <link rel="stylesheet" href="./file/styles.css" type="text/css"/>
+  
+
+  
+
+  <script type="text/javascript">
+  $(function(){
+      setupPreso(false, './');
+  });
+  </script>
+
+</head>
+
+<body>
+
+<a tabindex="0" href="#search-engines" class="fg-button fg-button-icon-right ui-widget ui-state-default ui-corner-all" id="navmenu"><span class="ui-icon ui-icon-triangle-1-s"></span>slides</a>
+<div id="navigation" class="hidden"></div>
+
+<div id="help">
+  <table>
+    <tr><td class="key">z, ?</td><td>toggle help (this)</td></tr>
+    <tr><td class="key">space, &rarr;</td><td>next slide</td></tr>
+    <tr><td class="key">shift-space, &larr;</td><td>previous slide</td></tr>
+    <tr><td class="key">d</td><td>toggle debug mode</td></tr>
+    <tr><td class="key">## &lt;ret&gt;</td><td>go to slide #</td></tr>
+    <tr><td class="key">c, t</td><td>table of contents (vi)</td></tr>
+    <tr><td class="key">f</td><td>toggle footer</td></tr>
+    <tr><td class="key">r</td><td>reload slides</td></tr>
+    <tr><td class="key">n</td><td>toggle notes</td></tr>
+    <tr><td class="key">p</td><td>run preshow</td></tr>
+    <tr><td class="key">P</td><td>toggle pause</td></tr>
+  </table>
+</div>
+
+<div class="buttonNav">
+  <input type="submit" onClick="prevStep();" value="prev"/>
+  <input type="submit" onClick="nextStep();" value="next"/>
+</div>
+
+<div id="preso">loading presentation...</div>
+<div id="footer">
+  <span id="slideInfo"></span>
+  <span id="debugInfo"></span>
+  <span id="notesInfo"></span>
+</div>
+
+<div id="slides" class="offscreen" style="display:none;">
+<html><body>
+<div style="background: url('file/./scene/headon.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/1">
+<p> </p>
+
+<p class="notes">relax, visualize.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/pier.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/2">
+<h1>Hello!</h1>
+
+<p class="notes">Let's have a discussions. I don't have the answer. I'm just telling some stories, making some connections. I'm saying: this is what works for me, can you relate? Let's have a discussion about living happy productive lives.
+.notes tell people to sit down</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/lalancha.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/3">
+<h1>Jacob Burkhart</h1>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/jbird-pururan.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center" ref="./slides/4">
+<h3>J-Bird</h3>
+
+<p class="notes">J-Bird is the reason I surf. Everything I talk about we went through together.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/piersunset.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/5">
+<h2>github.com/jacobo/being_present</h2>
+
+<p><br><br><br><br><br><br>
+<br><br><br><br><br></p>
+
+<h1>@igotimac</h1>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content" ref="./slides/6">
+<p><img src="./file/./logos/engine-yard.png" alt="">
+<img src="./file/./jacob/coding.gif" alt=""></p>
+
+<p class="notes">This is where I work. You could too.</p>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content center" ref="./slides/7">
+<h1>What is presence?</h1>
+
+<p class="notes">Escape existing only inside your head.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./faith/ezekiel.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/8">
+<h3>Default Mental Mode</h3>
+
+<p><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+Ezekiel</p>
+
+<p class="notes">We have 2 mental modes, the default one where we are recalling that past, anticipating the future, criticizing our action.  The other one, where we are just existing.  We are happier in the 2nd one.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./process/katrina.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/9">
+<h3>Working Memory</h3>
+
+<p><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+Katrina</p>
+
+<p class="notes">Presence is a way to clear out the working memory, and make more available for the task you really want it applied to: programming.</p>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content center" ref="./slides/10">
+<h1>Awareness</h1>
+
+<p class="notes">of what around you and how your body feels</p>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content center" ref="./slides/11">
+<h1>Mindfulness</h1>
+
+<p class="notes">doing things with intention</p>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content center" ref="./slides/12">
+<h1>Focus</h1>
+
+<p class="notes">escape the multi-tasking life</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/alicia.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/13">
+<h1>Know the Feeling?</h1>
+
+<p class="notes">The feeling of being present? The feeling of catching a wave?
+.note I won't explain the benefits of Being Present. I can only try to explain what it's like and how I get there. And maybe that will help you find your own way there.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./gerry/pipeline.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/14">
+<h1>Gerry Lopez</h1>
+
+<p class="notes">legendary pipeline surfer</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./bgquotes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center align-left" ref="./slides/15">
+<h2>Although instinct isn't the right word, something like it, along with a clear mind, work better than thinking because, at the Pipe, there isn't enough time for thought.</h2>
+
+<h2>A Zen-like mind that is empty of thoughts allows a strong connection with the wave.</h2>
+
+<h2>It lets the surfer be in touch with the wave as opposed to being apart from it.</h2>
+
+<p>--- Gerry Lopez</p>
+
+<p class="notes">Surf is where you find it: page 107</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/huntingtonbeach.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/16">
+<h3>Surfing</h3>
+
+<p> </p>
+
+<p class="notes">What do you think of when I say surfing?</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./logos/birdswell.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/17">
+<p> </p>
+
+<p class="notes">Go to birdswell.com and buy a t-shirt</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/huntingtonbeach2.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/18">
+<h3>Competition</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/slaterusopen.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/19">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/alanablanchard.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/20">
+<h3>Endorsements</h3>
+
+<p class="notes">Everyone needs marketing, I guess?</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/alanascloset.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/21">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/mavs.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/22">
+<h3>Big Wave Surf</h3>
+
+<p class="notes">like the the kernel and compiler developers and the rubinius and jruby guys. Big heavy stuff.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/jeffclark.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/23">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/danereynolds.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center" ref="./slides/24">
+<h3>Style</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/kassiameador.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/25">
+<p> </p>
+
+<p class="notes">Growing up at Malibu and surfing there, I was able to see some of the best surfers in the world. I am a very visual person. That’s why I am into photography and I really enjoy films. So aesthetically, I will just like the way someone surfs, especially if they are smooth. That’s why I like how Joel (Tudor) surfs or someone like Dane Peterson. A smooth style is something that I appreciate and I want to emulate with my surfing. I really have a difficult time watching people surf when they are just “all over the place,” I just can’t visually accept it. (laughs)</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/hippies.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/26">
+<h3>Peace</h3>
+
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/zenhippy.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/27">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/jorge.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/28">
+<h3>Harmony</h3>
+
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/treepose.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/29">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/hampton-nh.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/30">
+<h3>I Started Here</h3>
+
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content" ref="./slides/31">
+<h1>Kook</h1>
+
+<table>
+  <tr>
+    <td>
+      <img src="./file/./surfing/gettingup.jpg">
+    </td>
+    <td rowspan="100%">
+      <img src="./file/./surfing/jacobkook.png">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="./file/./surfing/firstwaves.jpg">
+    </td>
+  </tr>
+</table>
+
+<p class="notes">Everyone starts as a beginner. But even the most experience surfers have kook moments</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/jettykooks.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/32">
+<h1>Kooking it up</h1>
+
+<p class="notes">kooking it up sometimes means lazily catching a wave and riding it straight on, instead of going for the "down the line" maneuver.
+.notes Like writing terrible terrible code on purpose just to explore something. Or to teach something.</p>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content" ref="./slides/33">
+<pre class="sh_ruby"><code>def traversal_from_hash(from_hash)
+  traversal = Proc.new do |hash_a, hash_b, opts1|
+    a_vals = []
+    b_vals = []
+    sub_procs = [Proc.new{ "" }]
+    hash_a.each do |key, value|
+      if (value.is_a?(Hash) &amp;&amp; hash_b[key].is_a?(Hash))
+        sub_procs &lt;&lt; Proc.new do |opts2|
+          traversal.call(value, hash_b[key], opts2)
+        end
+      else
+        unless hash_b[key].nil?
+          a_vals &lt;&lt; value
+          b_vals &lt;&lt; hash_b[key]
+        end
+      end
+    end
+    sub_proc = Proc.new do |opts3|
+      sub_procs.collect do |sp|
+        sp.call(opts3)
+      end.join("")
+    end
+    a_vals.uniq.collect do |a_val|
+      yield a_val, b_vals, sub_proc, opts1
+    end
+  end
+end</code></pre>
+
+<p class="notes">kook programmer
+.notes the simple explanation is I should have paired
+.notes the harder lesson is that this code works. And it's ok to be a kook sometimes. Or rather, when you are stuck, fall back on what you know. This code was written with a puts statement between every line with lots of slow iterations.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./gerry/yoga.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/34">
+<h1>Gerry Lopez</h1>
+
+<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+(not a Kook)</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./bgquotes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center align-left" ref="./slides/35">
+<h2>The answer may be so simple that it is easily overlooked.</h2>
+
+<h2>If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed.</h2>
+
+<h2>It's there, so keep padding where it leads.</h2>
+
+<p>--- Gerry Lopez</p>
+
+<p class="notes">Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
+.note The ocean always wins and humility is healthy.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./ed/stylecrouch.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/36">
+<h1>Getting to the next level</h1>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/mainewinter.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/37">
+<h1>Dedication</h1>
+
+<p class="notes">winter surfing in maine
+.notes Water Temperature http://www.ndbc.noaa.gov/view_climplot.php?station=44007&amp;meas=st</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/bocabarranca.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/38">
+<h1>Priorities</h1>
+
+<p class="notes">I've taken many people out for their first surf. Or first few surfs. Only a few have truly taken to it.  Made it a priority.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/foggymontara.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content bullets incremental" ref="./slides/39">
+<h1>The 5 Priorities</h1>
+
+<ul>
+<li>Faith</li>
+<li>Health</li>
+<li>Family</li>
+<li>Friends</li>
+<li>Work</li>
+</ul>
+
+<p class="notes">I don't have the great big grey Gandalf beard up here to really sell this to you like it's a lifetime of wisdom. But I buy into it.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./faith/buddha.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/40">
+<p> </p>
+
+<p class="notes">Buddha. The original Zen master.  Life story is basically. Extreme Decadence, Extreme Piety. The Middle Path.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/jorge2.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/41">
+<h1>Balance</h1>
+
+<p class="notes">Balance. this is an ordered list, but there are no absolutes.  Friends don't ALWAYS take priority over work. There is balance</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/esterillos.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/42">
+<h3>Faith = Surf</h3>
+
+<p class="notes">Faith means many thinks to different people. To me it's surfing.  It's that rare sense of connection with the universe.
+.notes this is an assignment, not an assertion. I've chosen this assignment for my faith.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./gerry/patagonia.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/43">
+<p> </p>
+
+<p class="notes">characteristic smile picture</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./bgquotes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center align-left" ref="./slides/44">
+<h2>Anytime I go surfing can be a religious experience if I let it. It is a close encounter with one of our world's greatest natural wonders.</h2>
+
+<h2>Out here on the edge of the known world, far from the distractions of civilization, I can more easily find this space.</h2>
+
+<h2>But in reality any of us can find it anywhere, because we carry it inside us everywhere we go.</h2>
+
+<p>--- Gerry Lopez</p>
+
+<p class="notes">page 166</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/jbirdwin.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/45">
+<h3>Health</h3>
+
+<p class="notes">Surfing is good for you</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/handstand.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/46">
+<h3>Morning Exercise</h3>
+
+<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+Bipedalism</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/paddling.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/47">
+<h3>Wrist Strength</h3>
+
+<p class="notes">good for your wrists. TODO: good for so many thing
+.notes Vitamin D</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/thanksgiving.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/48">
+<h3>Family</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/shiva.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/49">
+<h3>Prioritizing Surf</h3>
+
+<p class="notes">Shiva. Not the indian God, just the middle name my Yoga-obsessed aunt gave to my cousin. Which he now goes by Took my on my first Surf. He was living in a shack his artist friend built, with ilegal plumbing. Over worked as an architect, on the fritz with his girlfriend at the time. Surfing every morning. Loving Life.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/jbird.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/50">
+<h3>Sharing the Stoke</h3>
+
+<p> </p>
+
+<p class="notes">J-Bird. My lifelong surf companion. My Wife. An Obsession with perfection.  And with surfing.
+A roller-coaster of emotion as an Addict who rages at the need to surf. And is SOO excited when she finally catches that first wave. Her stoke never fades.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/beachkooks.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/51">
+<h3>Friends</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/cynthia.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/52">
+<h3>Addiction</h3>
+
+<p class="notes">Cynthia: Surfing is My Drug</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/chris.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/53">
+<h3>Sanity</h3>
+
+<p class="notes">Chris: Surfing keeps me sane (or less insane)</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/post-mago-surf.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/54">
+<h3>Post-Mango Surf</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/perin.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/55">
+<h3>Patience</h3>
+
+<p class="notes">patience
+.notes "No other thoughts in my head"</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./work/thom.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/56">
+<h3>Work</h3>
+
+<p> </p>
+
+<p class="notes">TODO: no child labor
+.notes surf before you go to work</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./ed/yellow.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content align-left" ref="./slides/57">
+<h1>Ed</h1>
+
+<p class="notes">I knew him as "Director of engineering". Opened my eyes to surfing new places, exploring. Surfing in the winter. Trying new boards One of the first time's Ed and I surfed together I can only recently started at Brontes.  He asked me "How are things"? I said "which, work? or surf?" He replied, oh well surf I guess. Clearly you understand what's more important.
+.notes It's critical to always mix work and surfing. The yellow board, a big hull shaped by Ryan Lovelace, was picked up while I was in LA, repairing COSs and meeting customers. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef. In between each session, I repaired a COS. It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.
+.notes The yellow board, was picked up while I was in LA. I rode it at Ricon, County Line, Topanga Canyon and Cardiff Reef.
+.notes In between each session, I repaired a COS.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./bgquotes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center align-left" ref="./slides/58">
+<h2>It's critical to always mix work and surfing.</h2>
+
+<h2>The yellow board was picked up while I was in LA, repairing COSs and meeting customers.</h2>
+
+<h2>... It's more complicated than sending a tech or paying shipping on a new board, but, that's far less satisfying.</h2>
+
+<p>--- Ed</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/sanpancho.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/59">
+<h1>Surf Lifestyle</h1>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/phillipine-sunrise.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/60">
+<h3>Wake up at 6</h3>
+
+<p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+(J-Bird drags me out of Bed at 6)</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/lindamar.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/61">
+<h3>In the water by 7</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/dunes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/62">
+<h3>Out by 9</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/surf-shower.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/63">
+<h3>Quick Shower</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./work/standup.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/64">
+<h3>Standup at 10</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/lunch.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/65">
+<h3>The Massive Lunch</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/layback.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/66">
+<h1>Pura Vida</h1>
+
+<p class="notes">pair says: OMG this bug or this problem :-( I say: OMG this bug! :-) It's so interesting. So intriguing. why why why. how how how.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./bgquotes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center align-left" ref="./slides/67">
+<h2>Such is the life we can know.</h2>
+
+<h2>Living in the past and in the future - in recollection and in anticipation - creates a less clear picture of the present.</h2>
+
+<h2>By being in the here and now we understand that the past and future only exist in the present.</h2>
+
+<p>--- Gerry Lopez</p>
+
+<p class="notes">quote by Gerry Lopez. He was talking about his experience big wave surfing. Fortunately for me, I can get this feeling from less life-threatening situations.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/greywhale.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center" ref="./slides/68">
+<h1>What is your source of presence?</h1>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/mtbachelor.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/69">
+<h3>Travel!</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./westport/beach.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/70">
+<h3>Westport</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./westport/map.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/71">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./westport/surfshop.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/72">
+<p> </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/santacruz.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/73">
+<h3>Santa Cruz</h3>
+
+<p class="notes">The long peeling waves. Sweet Sweet longboard rides. Otters! But the people :-(</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/pointbreakaggro.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/74">
+<h1>Don't be Aggro!</h1>
+
+<p class="notes">Application to programmers: Welcome and encourage new ideas. Be constructive not negative. We don't do this face to face, but we see it anonymized online all the time. "Haters hating" A style that is not yours doesn't means it's wrong.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/halfmoonbay.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/75">
+<h3>Half Moon Bay</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/twiggy.png') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/76">
+<h1>Don't panic after you've panicked</h1>
+
+<p class="notes">Grant 'twiggy' Baker.  Stuff breaks in production. You might freak out. But then you must calmly </p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./bgquotes.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content center align-left" ref="./slides/77">
+<h2>Moments of surf realization are here to remind us of our true potential.</h2>
+
+<h2>If that is why we surf, that's good because surfing reconnects us to who we really are.</h2>
+
+<h2>This is all more reason to keep surfing.</h2>
+
+<h2>Life is good. Surfing reminds us of how good life is.</h2>
+
+<p>--- Gerry Lopez</p>
+
+<p class="notes">page 115</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/bird.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/78">
+<h3>Musical Finale</h3>
+</div>
+</div>
+</body></html><html><body>
+<div class="slide" data-transition="none">
+<div class="content" ref="./slides/79">
+<h3>Extra Time</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/cowells.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/80">
+<h3>Surf etiquette</h3>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/morocco.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/81">
+<h1>Priority to the peak</h1>
+
+<p>Don't drop in. Your chance will come.</p>
+
+<p class="notes">There's always another wave.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/controlyourboard.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/82">
+<h1>Control your board</h1>
+
+<p>Be accountable</p>
+
+<p class="notes">Be accountable.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./friends/rich.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/83">
+<h3>Ding Repair</h3>
+
+<p>Accidents happen</p>
+
+<p class="notes">Fix them. Get a professional to help you.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./family/dad.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/84">
+<h3>Aloha</h3>
+
+<p>Share and Encourage</p>
+
+<p class="notes">Cheer for strangers. Share the waves.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./surfing/holddown.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/85">
+<h3>The Hold Down</h3>
+
+<p>Relaxing under Stress</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./jacob/safari.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/86">
+<h3>Weekend Surf Safari</h3>
+
+<p class="notes">Lets go surfin now. Everybodys learning how. Come on and safari with me.</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/tunitas.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/87">
+<h1>The Coastline</h1>
+
+<p class="notes">Marin county. The usual weekday breaks. State Parks.  Santa Cruz</p>
+</div>
+</div>
+</body></html><html><body>
+<div style="background: url('file/./scene/bird.jpg') center no-repeat;" class="slide" data-transition="none">
+<div class="content" ref="./slides/88">
+<h3>Musical Finale</h3>
+</div>
+</div>
+</body></html></div>
+<div id="pauseScreen">
+  
+</div>
+
+</body>
+</html>
