@@ -1,80 +1,20 @@
 !SLIDE[bg=scene/headon.jpg]
 &nbps;
 
-.notes relax, visualize.
+!SLIDE[bg=family/kitties.jpg]
+&nbps;
 
 !SLIDE[bg=jacob/pier.jpg]
-# Hello!
-
-.notes Let's have a discussions. I don't have the answer. I'm just telling some stories, making some connections. I'm saying: this is what works for me, can you relate? Let's have a discussion about living happy productive lives.
-.notes tell people to sit down
+&nbps;
 
 !SLIDE[bg=jacob/lalancha.jpg]
-# Jacob Burkhart
+&nbps;
 
-!SLIDE[bg=family/jbird-pururan.jpg] center
-### J-Bird
-
-.notes J-Bird is the reason I surf. Everything I talk about we went through together.
-
-!SLIDE[bg=scene/piersunset.jpg]
-## github.com/jacobo/being_present
-<br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/>
-# @igotimac
-
-!SLIDE
-![](logos/engine-yard.png)
-![](jacob/coding.gif)
-
-.notes This is where I work. You could too.
-
-!SLIDE center
-# What is presence?
-
-.notes Escape existing only inside your head.
-
-!SLIDE[bg=faith/ezekiel.jpg]
-### Default Mental Mode
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/>
-Ezekiel
-
-.notes We have 2 mental modes, the default one where we are recalling that past, anticipating the future, criticizing our action.  The other one, where we are just existing.  We are happier in the 2nd one.
-
-!SLIDE[bg=process/katrina.jpg]
-### Working Memory
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/><br/><br/>
-Katrina
-
-.notes Presence is a way to clear out the working memory, and make more available for the task you really want it applied to: programming.
-
-!SLIDE center
-# Awareness
-
-.notes of what around you and how your body feels
-
-!SLIDE center
-# Mindfulness
-
-.notes doing things with intention
-
-!SLIDE center
-# Focus
-
-.notes escape the multi-tasking life
-
-!SLIDE[bg=family/alicia.jpg]
-# Know the Feeling?
-
-.notes The feeling of being present? The feeling of catching a wave?
-.note I won't explain the benefits of Being Present. I can only try to explain what it's like and how I get there. And maybe that will help you find your own way there.
+!SLIDE[bg=family/jbird-pururan.jpg]
+&nbps;
 
 !SLIDE[bg=gerry/pipeline.jpg]
 # Gerry Lopez
-
-.notes legendary pipeline surfer
 
 !SLIDE[bg=bgquotes.jpg] center align-left
 ## Although instinct isn't the right word, something like it, along with a clear mind, work better than thinking because, at the Pipe, there isn't enough time for thought.
@@ -83,139 +23,6 @@ Katrina
 --- Gerry Lopez
 
 .notes Surf is where you find it: page 107
-
-!SLIDE[bg=surfing/huntingtonbeach.png]
-### Surfing
-&nbps;
-
-.notes What do you think of when I say surfing?
-
-!SLIDE[bg=logos/birdswell.png]
-&nbps;
-
-.notes Go to birdswell.com and buy a t-shirt
-
-!SLIDE[bg=surfing/huntingtonbeach2.png]
-### Competition
-
-!SLIDE[bg=surfing/slaterusopen.jpg]
-&nbps;
-
-!SLIDE[bg=surfing/alanablanchard.jpg]
-### Endorsements
-
-.notes Everyone needs marketing, I guess?
-
-!SLIDE[bg=surfing/alanascloset.jpg]
-&nbps;
-
-!SLIDE[bg=surfing/mavs.jpg]
-### Big Wave Surf
-
-.notes like the the kernel and compiler developers and the rubinius and jruby guys. Big heavy stuff.
-
-!SLIDE[bg=surfing/jeffclark.jpg]
-&nbps;
-
-!SLIDE[bg=surfing/danereynolds.jpg] center
-### Style
-
-!SLIDE[bg=surfing/kassiameador.jpg]
-&nbps;
-
-.notes Growing up at Malibu and surfing there, I was able to see some of the best surfers in the world. I am a very visual person. That’s why I am into photography and I really enjoy films. So aesthetically, I will just like the way someone surfs, especially if they are smooth. That’s why I like how Joel (Tudor) surfs or someone like Dane Peterson. A smooth style is something that I appreciate and I want to emulate with my surfing. I really have a difficult time watching people surf when they are just “all over the place,” I just can’t visually accept it. (laughs)
-
-!SLIDE[bg=surfing/hippies.jpg]
-### Peace
-&nbps;
-
-!SLIDE[bg=surfing/zenhippy.jpg]
-&nbps;
-
-!SLIDE[bg=friends/jorge.jpg]
-### Harmony
-&nbps;
-
-!SLIDE[bg=surfing/treepose.png]
-&nbps;
-
-!SLIDE[bg=surfing/hampton-nh.jpg]
-### I Started Here
-&nbps;
-
-!SLIDE
-# Kook
-<table>
-  <tr>
-    <td>
-      <img src="surfing/gettingup.jpg"/>
-    </td>
-    <td rowspan="100%">
-      <img src="surfing/jacobkook.png"/>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="surfing/firstwaves.jpg"/>
-    </td>
-  </tr>
-</table>
-
-.notes Everyone starts as a beginner. But even the most experience surfers have kook moments
-
-!SLIDE[bg=surfing/jettykooks.jpg]
-# Kooking it up
-
-.notes kooking it up sometimes means lazily catching a wave and riding it straight on, instead of going for the "down the line" maneuver.
-.notes Like writing terrible terrible code on purpose just to explore something. Or to teach something.
-
-!SLIDE
-    @@@ruby
-    def traversal_from_hash(from_hash)
-      traversal = Proc.new do |hash_a, hash_b, opts1|
-        a_vals = []
-        b_vals = []
-        sub_procs = [Proc.new{ "" }]
-        hash_a.each do |key, value|
-          if (value.is_a?(Hash) && hash_b[key].is_a?(Hash))
-            sub_procs << Proc.new do |opts2|
-              traversal.call(value, hash_b[key], opts2)
-            end
-          else
-            unless hash_b[key].nil?
-              a_vals << value
-              b_vals << hash_b[key]
-            end
-          end
-        end
-        sub_proc = Proc.new do |opts3|
-          sub_procs.collect do |sp|
-            sp.call(opts3)
-          end.join("")
-        end
-        a_vals.uniq.collect do |a_val|
-          yield a_val, b_vals, sub_proc, opts1
-        end
-      end
-    end
-
-.notes kook programmer
-.notes the simple explanation is I should have paired
-.notes the harder lesson is that this code works. And it's ok to be a kook sometimes. Or rather, when you are stuck, fall back on what you know. This code was written with a puts statement between every line with lots of slow iterations.
-
-!SLIDE[bg=gerry/yoga.jpg]
-# Gerry Lopez
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-(not a Kook)
-
-!SLIDE[bg=bgquotes.jpg] center align-left
-## The answer may be so simple that it is easily overlooked.
-## If one believes that the truth lies within, faith dictates that it will reveal itself when it is most needed.
-## It's there, so keep padding where it leads.
---- Gerry Lopez
-
-.notes Surf is where you find it page 128.  Gerry tells the story of riding giant unpredictable waves in G-Land. http://en.wikipedia.org/wiki/G-Land
-.note The ocean always wins and humility is healthy.
 
 !SLIDE[bg=ed/stylecrouch.jpg]
 # Getting to the next level
@@ -383,91 +190,4 @@ A roller-coaster of emotion as an Addict who rages at the need to surf. And is S
 !SLIDE[bg=scene/greywhale.jpg] center
 # What is your source of presence?
 
-!SLIDE[bg=scene/mtbachelor.jpg]
-### Travel!
 
-!SLIDE[bg=westport/beach.png]
-### Westport
-
-!SLIDE[bg=westport/map.png]
-&nbsp;
-
-!SLIDE[bg=westport/surfshop.jpg]
-&nbsp;
-
-!SLIDE[bg=scene/santacruz.jpg]
-### Santa Cruz
-
-.notes The long peeling waves. Sweet Sweet longboard rides. Otters! But the people :-(
-
-!SLIDE[bg=scene/pointbreakaggro.png]
-# Don't be Aggro!
-
-.notes Application to programmers: Welcome and encourage new ideas. Be constructive not negative. We don't do this face to face, but we see it anonymized online all the time. "Haters hating" A style that is not yours doesn't means it's wrong.
-
-!SLIDE[bg=scene/halfmoonbay.jpg]
-### Half Moon Bay
-
-!SLIDE[bg=surfing/twiggy.png]
-#Don't panic after you've panicked
-
-.notes Grant 'twiggy' Baker.  Stuff breaks in production. You might freak out. But then you must calmly 
-
-!SLIDE[bg=bgquotes.jpg] center align-left
-## Moments of surf realization are here to remind us of our true potential.
-## If that is why we surf, that's good because surfing reconnects us to who we really are. 
-## This is all more reason to keep surfing. 
-## Life is good. Surfing reminds us of how good life is.
---- Gerry Lopez
-
-.notes page 115
-
-!SLIDE[bg=scene/bird.jpg]
-### Musical Finale
-
-!SLIDE
-### Extra Time
-
-!SLIDE[bg=scene/cowells.jpg]
-### Surf etiquette
-
-!SLIDE[bg=scene/morocco.jpg]
-# Priority to the peak
-Don't drop in. Your chance will come.
-
-.notes There's always another wave.
-
-!SLIDE[bg=surfing/controlyourboard.jpg]
-# Control your board
-Be accountable
-
-.notes Be accountable.
-
-!SLIDE[bg=friends/rich.jpg]
-### Ding Repair
-Accidents happen
-
-.notes Fix them. Get a professional to help you.
-
-!SLIDE[bg=family/dad.jpg]
-### Aloha
-Share and Encourage
-
-.notes Cheer for strangers. Share the waves.
-
-!SLIDE[bg=surfing/holddown.jpg]
-### The Hold Down
-Relaxing under Stress
-
-!SLIDE[bg=jacob/safari.jpg]
-### Weekend Surf Safari
-
-.notes Lets go surfin now. Everybodys learning how. Come on and safari with me.
-
-!SLIDE[bg=scene/tunitas.jpg]
-# The Coastline
-
-.notes Marin county. The usual weekday breaks. State Parks.  Santa Cruz
-
-!SLIDE[bg=scene/bird.jpg]
-### Musical Finale
